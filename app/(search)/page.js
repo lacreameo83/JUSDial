@@ -1,15 +1,14 @@
 "use client";
 
 import React from "react";
-import { BsList } from "react-icons/bs";
+
 import { CiSearch } from "react-icons/ci";
 import { CiLocationOn } from "react-icons/ci";
-import { RiArrowDropDownLine } from "react-icons/ri";
+
 // material ui implamentation
 
-import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
-import FormHelperText from "@mui/material/FormHelperText";
+
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { useState } from "react";
