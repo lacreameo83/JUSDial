@@ -14,6 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { Search } from "@mui/icons-material";
+import { FaLocationDot } from "react-icons/fa6";
 
 
 function Page() {
@@ -26,7 +27,7 @@ const handleChange = (event) => {
 
   
   return (
-    <div className="h-[572px] flex-col gap-[18px] px-[40px] sm:px-[70px] text-black flex justify-center">
+    <div className="   gap-[18px]  text-black ">
       <div className="sm:h-[176px] h-[192px] w-[325px] sm:w-[727px] gap-[18px] flex flex-col ">
         <div className="sm:w-[757px] Nunito w-[325px]  text-[28px] font-[800] h-[114px] text-[#1F1F1F] text-center sm:text-start sm:h-[120px] leading-[38.19px] text-[800] sm:text-[44.31px] sm:leading-[60.44px]">
           <p>
@@ -40,32 +41,31 @@ const handleChange = (event) => {
       {/* input sides */}
       {/* search */}
       <div>
-        <div className="w-[325px] h-[283.76px] rounded-[14.73px] flex flex-col sm:flex-row justify-between  px-[11.78px] py-[22.58px] bg-white sm:w-[686px] sm:h-[52.65px] sm:rounded-[7.52px] items-center  ">
+        <div className="w-[325px] mt-[13.75px]  sm:mt-[45px] h-[283.76px] rounded-[14.73px] flex flex-col sm:flex-row justify-between  px-[11.78px] py-[22.58px] bg-white sm:w-[686px] sm:h-[52.65px] sm:rounded-[7.52px] items-center  ">
           <div className="sm:w-[444.42px] sm:h-[22.57px] h-[90%] justify-around sm:justify-between flex flex-col sm:flex-row  ">
             <div
-              className="sm:w-[148px] px-4 sm:h-[17px] text-[12.24px] flex items-center text-[#A1A1A1] 
+              className="sm:w-[178.44px]  sm:h-[17px] text-[12.24px] px-4 sm:px-0 sm:border-[#A1A1A1] sm:border-r  flex items-center text-[#A1A1A1] 
 Nunito font-[400]  sm:text-[12.47px] sm:leading-[17.01px] sm:text-center w-[301.44px] h-[50.08px] sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  "
             >
               <div className=" flex items-center justify-between ">
                 <input
                   type="text"
-                  className="outline-none bg-transparent "
+                  className="outline-none w-[148px] bg-transparent "
                   placeholder="what are you looking for ? "
                 />
               </div>
             </div>
             {/* select button */}
-            <div>
+            <div className="sm:w-[148.42px] sm:flex sm:items-center sm:justify-center">
               <FormControl
                 sx={{
-                  width: { xs: "100%", sm: "auto" }, // Full width on small screens
+                  width: { xs: "100%", sm: "91.07px" }, // Full width on small screens
                   height: { xs: "52.65px", sm: "17px" }, // Adjust height for small and large screens
                   color: "#A1A1A1",
                   borderRadius: { xs: "9.82px", sm: 0 }, // Rounded corners on small screens
                   backgroundColor: { xs: "#F3F3F3", sm: "transparent" }, // Background color on small screens
                   outline: "none",
-                  borderLeft: { xs: "none", sm: "1px solid #A1A1A1" },
-                  borderRight: { xs: "none", sm: "1px solid #A1A1A1" },
+
                   boxShadow: "none",
                   "& .MuiOutlinedInput-notchedOutline": { border: "none" }, // Remove borders for outlined variant
                   "&:hover .MuiOutlinedInput-notchedOutline": {
@@ -117,16 +117,18 @@ Nunito font-[400]  sm:text-[12.47px] sm:leading-[17.01px] sm:text-center w-[301.
             </div>
             {/* location */}
             <div
-              className="sm:w-[148px] flex text-[12.24px] px-4 sm:h-[17px] text-[#A1A1A1] 
+              className="sm:w-[148px] sm:border-[#A1A1A1] sm:border-l  flex text-[12.24px] px-4 sm:h-[17px] text-[#A1A1A1] 
 Nunito font-[400] sm:text-[12.47px] sm:leading-[17.01px] items-center text-center w-[301.44px] h-[50.08px] sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  "
             >
-              <div className=" flex w-[301.44px]  sm:w-[148px] items-center justify-between ">
+              <div className=" flex w-[301.44px]  sm:w-[100.04px] items-center justify-between ">
                 <input
                   type="text"
                   className="outline-none bg-transparent "
                   placeholder="Location "
                 />
-                <CiLocationOn />
+                <p>
+                  <FaLocationDot className="font-[800] text-[black]" />
+                </p>
               </div>
             </div>
           </div>
