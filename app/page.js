@@ -8,7 +8,7 @@ export default function Home() {
         style={{
           backgroundImage: `url('/homeImages/herosectionbackgroundimage.png')`,
         }}
-        className="h-[832px] px-[25px] sm:px-[90px] w-full bg-cover bg-center"
+        className="h-[832px] px-[25px]  sm:px-[10px] xl:px-[90px] w-full bg-cover bg-center"
       >
         <Nav  />
         <Herosection />

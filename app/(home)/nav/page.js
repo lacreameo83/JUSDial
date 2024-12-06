@@ -16,7 +16,7 @@ function Page() {
 
       {/* Navigation Menu (Visible on large screens) */}
       <div className="hidden sm:block">
-        <ul className="flex items-center sm:leading-[22.62px] text-[#1F1F1F]  w-full h-[23px] sm:w-[575px] justify-between text-[16.58px] Nunito font-[700] text-center">
+        <ul className="flex items-center sm:leading-[22.62px] text-[#1F1F1F]  w-full h-[23px] sm:w-[455px]   xl:w-[575px] justify-between text-[16.58px] Nunito font-[700] text-center">
           <li className="hover:text-[#EB3951] cursor-pointer transition-colors duration-300 ease-in-out">
             Construction
           </li>

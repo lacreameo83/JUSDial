@@ -44,7 +44,7 @@ const handleChange = (event) => {
         <div className="w-[325px] mt-[13.75px]  sm:mt-[45px] h-[283.76px] rounded-[14.73px] flex flex-col sm:flex-row justify-between  px-[11.78px] py-[22.58px] bg-white sm:w-[686px] sm:h-[52.65px] sm:rounded-[7.52px] items-center  ">
           <div className="sm:w-[444.42px] sm:h-[22.57px] h-[90%] justify-around sm:justify-between flex flex-col sm:flex-row  ">
             <div
-              className="sm:w-[178.44px]  sm:h-[17px] text-[12.24px] px-4 sm:px-0 sm:border-[#A1A1A1] sm:border-r  flex items-center text-[#A1A1A1] 
+              className="sm:w-[178.44px]  sm:h-[17px] text-[12.24px] px-4 sm:px-0 sm:border-[#A1A1A1] sm:border-r  flex items-center text-black 
 Nunito font-[400]  sm:text-[12.47px] sm:leading-[17.01px] sm:text-center w-[301.44px] h-[50.08px] sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  "
             >
               <div className=" flex items-center justify-between ">
@@ -117,7 +117,7 @@ Nunito font-[400]  sm:text-[12.47px] sm:leading-[17.01px] sm:text-center w-[301.
             </div>
             {/* location */}
             <div
-              className="sm:w-[148px] sm:border-[#A1A1A1] sm:border-l  flex text-[12.24px] px-4 sm:h-[17px] text-[#A1A1A1] 
+              className="sm:w-[148px] sm:border-[#A1A1A1] sm:border-l  flex text-[12.24px] px-4 sm:h-[17px] text-black
 Nunito font-[400] sm:text-[12.47px] sm:leading-[17.01px] items-center text-center w-[301.44px] h-[50.08px] sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  "
             >
               <div className=" flex w-[301.44px]  sm:w-[100.04px] items-center justify-between ">
