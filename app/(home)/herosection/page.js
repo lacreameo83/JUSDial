@@ -83,7 +83,7 @@ Nunito font-[400]  sm:text-[12.47px] sm:leading-[17.01px] sm:text-center w-[301.
                   displayEmpty
                   // inputProps={{ "aria-label": "Without label" }}
                   sx={{
-                    width: { xs: "301.24px", sm: "auto" },
+                    width: { xs: "301.24px", sm: "91.07px" },
 
                     fontSize: "12px",
                     fontStyle: "normal",
