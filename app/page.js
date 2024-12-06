@@ -1,7 +1,7 @@
 import Nav from '../app/(home)/nav/page.js'
 import Herosection from '../app/(home)/herosection/page.js'
 
-export default function page() {
+export default function Home() {
   return (
     <div>
       <div
