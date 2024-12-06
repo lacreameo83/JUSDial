@@ -1,7 +1,7 @@
 import Nav from '../app/(home)/nav/page.js'
 import Herosection from '../app/(home)/herosection/page.js'
 
-export default function Home() {
+export default function page() {
   return (
     <div>
       <div
@@ -10,7 +10,7 @@ export default function Home() {
         }}
         className="h-[832px] w-full bg-cover bg-center"
       >
-        <Nav className="" />
+        <Nav  />
         <Herosection />
       </div>
     </div>
