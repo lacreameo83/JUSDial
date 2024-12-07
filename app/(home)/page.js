@@ -8,7 +8,7 @@ export default function Home() {
         style={{
           backgroundImage: `url('/homeImages/28.png')`,
         }}
-        className="h-screen relative gradient-background    w-full bg-cover bg-no-repeat bg-center"
+        className=" h-[95vh] sm:h-screen  relative gradient-background    w-full bg-cover bg-no-repeat bg-center"
       >
         {/* <div
          
@@ -18,7 +18,7 @@ export default function Home() {
           <Nav />
           <Herosection />
         </div>
-        <div className=" hidden sm:block fixed gradient-background h-[270px] w-full bottom-0 left-0 "></div>
+        <div className=" hidden sm:block absolute gradient-background h-[270px] w-full bottom-0 left-0 "></div>
       </div>
     </div>
   );
