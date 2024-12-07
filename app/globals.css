@@ -7,16 +7,39 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+.PlusJakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 
 .Nunito {
   font-family: "Nunito Sans", sans-serif; ;
 }
-
+/* colors */
+.primarycolor {
+  color: #364436;
+}
+.textcolor {
+  color: #616161;
+}
+.placehoderscolors {
+  color: #808080;
+}
+.backgroundcolor {
+  background-color: #364436;
+ box-shadow: 0 1px 5px #0E0E2C1A, 0 1px 5px #0E0E2C66;
+}
+.buttonbackgroundcolor {
+  background-color: #F9F9FB;
+}
 
 .Poppinsfonts {
   font-family: "Poppins", sans-serif;
@@ -30,6 +53,16 @@
   transition: background-color 0.3s ease;
 }
 
+.gradient-background {
+  background: linear-gradient(
+    to bottom, /* Direction: from top to bottom */
+    rgba(255, 255, 255, 0) 0%, /* Slightly visible white at 0% */
+    rgba(255, 255, 255, 0.1) 20%, /* Slightly visible white at 20% */
+    rgba(255, 255, 255, 0.5) 40%, /* Slightly visible white at 40% */
+    rgba(255, 255, 255, 0.8) 100% /* Nearly transparent white at 100% */
+  );
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Reflective shadow effect */
+}
 
 
 .hover-arrow::after {

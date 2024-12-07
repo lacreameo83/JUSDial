@@ -11,11 +11,11 @@ import paypalloogo from "../../public/bank-cards-logo/PayPalCard.png";
 import amex from "../../public/bank-cards-logo/amexcard.png";
 import visa from "../../public/bank-cards-logo/visa card.png";
 import Image from "next/image";
-import IconButton from "@/reuseablecomponents/IconButton";
+import IconButton from "@/components/iconbutton/IconButton";
 import { AiOutlineMail } from "react-icons/ai";
 import { PiHouseLine } from "react-icons/pi";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
-import ActionButton from "@/reuseablecomponents/ActionButton";
+import ActionButton from "@/components/actionbutton/ActionButton";
 
 function Footer() {
   return (

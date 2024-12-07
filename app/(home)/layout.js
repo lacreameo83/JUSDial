@@ -1,13 +1,8 @@
 import localFont from "next/font/local";
-import "./globals.css";
-import Footer from "@/components/footer/page.js";
+import "../globals.css";
+import Footer from "@/components/footer/Footer.jsx";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-
-
-
-
-
 
 export const metadata = {
   title: "Create Next App",
@@ -17,10 +12,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-       
-      >
-      <CssBaseline />
+      <body>
+        <CssBaseline />
         <main>{children}</main>
         <Footer />
       </body>
