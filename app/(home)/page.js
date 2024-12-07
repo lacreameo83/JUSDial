@@ -18,7 +18,7 @@ export default function Home() {
           <Nav />
           <Herosection />
         </div>
-        <div className="fixed gradient-background h-[270px] w-full bottom-0 left-0 "></div>
+        <div className=" hidden sm:block fixed gradient-background h-[270px] w-full bottom-0 left-0 "></div>
       </div>
     </div>
   );
