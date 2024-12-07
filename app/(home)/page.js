@@ -8,7 +8,8 @@ export default function Home() {
         style={{
           backgroundImage: `url('/homeImages/28.png')`,
         }}
-        className=" h-[95vh] sm:h-screen  relative gradient-background    w-full bg-cover bg-no-repeat bg-center"
+        className=" h-[93clear
+        vh] sm:h-screen  relative gradient-background    w-full bg-cover bg-no-repeat bg-center"
       >
         {/* <div
          
