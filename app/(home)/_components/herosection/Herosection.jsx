@@ -201,10 +201,10 @@ PlusJakarta font-[400] sm:text-[16px] sm:leading-[24px] text-center "
 
             {/* for button */}
             <div>
-              <div className="backgroundcolor w-[301.44px] sm:gap-[12.02px] text-[#FFFFFF] px-[36.93px] sm:rounded-[6.01px] Nunito text-[12.48px] font-[500] h-[47.13px] leading-[17.01px] sm:w-[204.07px] rounded-[3.69px] sm:h-[60.07px] sm:py-[18.04px] py-[11.08px] sm:px-[60.12px] flex items-center justify-center  cursor-pointer transition-colors duration-300 ease-in-out ">
-                <CiSearch className="w-[10.52px] h-[10.52px]  sm:w-[2.65px] sm:h-[2.58px] " />
+              <div className="backgroundcolor w-[301.44px] gap-[7.39px] sm:gap-[12.02px] text-[#FFFFFF] px-[36.93px] sm:rounded-[6.01px] Nunito text-[12.48px] font-[500] h-[47.13px] leading-[17.01px] sm:w-[204.07px] rounded-[3.69px] sm:h-[60.07px] sm:py-[18.04px] py-[11.08px] sm:px-[60.12px] flex items-center justify-center  cursor-pointer transition-colors duration-300 ease-in-out ">
+                <CiSearch className="w-[10.08px] h-[9.84px]  sm:w-[17.8px] sm:h-[17.8px] " />
                 <p
-                  className="w-[14px] font-[500] text-[16px] leading-[20px]    sm:w-[54px] sm:h-[24px] 
+                  className="w-[48px] font-[500] h-[20px] text-[14px]  leading-[20px] text-white    sm:w-[54px] sm:h-[24px] 
 PlusJakarta  sm:font-[400] sm:text-[16px] sm:leading-[24px] text-center"
                 >
                   Search
