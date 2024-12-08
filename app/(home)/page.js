@@ -8,7 +8,7 @@ export default function Home() {
         style={{
           backgroundImage: `url('/homeImages/28.png')`,
         }}
-        className=" h-[96vh] md:h-screen z-20    relative gradient-background    w-full bg-cover  "
+        className=" h-[100vh]  z-20    relative gradient-background    w-full bg-cover  "
       >
         {/* <div
          
@@ -22,9 +22,9 @@ export default function Home() {
           style={{
             backgroundImage: `url('/homeImages/62.png')`,
           }}
-          className="absolute bottom-0 left-0 w-full bg-center sm:bg-start bg-cover h-[800px]   sm:h-[950px] bg-no-repeat   z-30 "
+          className="absolute bottom-0 left-0 w-full bg-center  bg-cover h-[800px]   sm:h-[897px] bg-no-repeat   z-30 "
         ></div>
-        <div className="  absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[370px] w-full bottom-0 left-0 "></div>
+        <div className=" hidden  sm:block absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[370px] w-full bottom-0 left-0 "></div>
       </div>
     </div>
   );

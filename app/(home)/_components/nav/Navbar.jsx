@@ -5,7 +5,7 @@ import { FaLayerGroup } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className="h-[48pxpx] px-[25px]  sm:px-[10px] xl:px-[48px] pt-[37px] mb-[25px] sm:mb-[127px] xl:mb-[40px]  flex items-center justify-between  ">
+    <div className="h-[48pxpx] px-[25px]  sm:px-[10px] xl:px-[48px] pt-[37px] mb-[58px] sm:mb-[127px] xl:mb-[40px]  flex items-center justify-between  ">
       {/* Logo Section */}
       <div className="PlusJakarta font-[800]  leading-[22.62px] w-[57px]  sm:w-[85px] h-[30px] sm:h-[44px]  flex items-center  flex-col gap-1  primarycolor">
         <p className="sm:h-[18.06px] h-[17.81px] font-[700] text-[16.09px] sm:text-[24px] leading-[6.71px]  sm:leading-[10px] ">
