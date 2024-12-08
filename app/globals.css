@@ -57,11 +57,18 @@
   background: linear-gradient(
     to bottom, /* Direction: from top to bottom */
     rgba(255, 255, 255, 0) 0%, /* Slightly visible white at 0% */
-    rgba(255, 255, 255, 0.1) 20%, /* Slightly visible white at 20% */
-    rgba(255, 255, 255, 0.5) 40%, /* Slightly visible white at 40% */
-    rgba(255, 255, 255, 0.8) 100% /* Nearly transparent white at 100% */
+    rgba(255, 255, 255, 0.3) 20%, /* Slightly visible white at 20% */
+    rgba(255, 255, 255, 0.7) 40%, /* Slightly visible white at 40% */
+    rgba(255, 255, 255,0.9) 100% /* Nearly transparent white at 100% */
   );
-  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2); /* Reflective shadow effect */
+ 
+}
+
+/* animations */
+.typeselectdropdom {
+  transition-duration: 3s;
+  transition-timing-function: linear;
+  /* transition: background; */
 }
 
 
@@ -79,4 +86,20 @@
 .hover-arrow:hover::after {
   opacity: 1; 
   transform: translateY(-50%) translateX(0); 
+}
+
+
+
+/* media  */
+@media screen and (max-width: 560px) {
+ .gradient-background {
+  background: linear-gradient(
+    to bottom, /* Direction: from top to bottom */
+    rgba(255, 255, 255, 0) 0%, /* Slightly visible white at 0% */
+    rgba(255, 255, 255, 0.1) 20%, /* Slightly visible white at 20% */
+    rgba(255, 255, 255, 0.1) 40%, /* Slightly visible white at 40% */
+    rgba(255, 255, 255,0. 1) 100% /* Nearly transparent white at 100% */
+  );
+ 
+}
 }
