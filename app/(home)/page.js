@@ -1,6 +1,6 @@
 import Nav from './_components/nav/Navbar.jsx'
 import Herosection from './_components/herosection/Herosection.jsx'
-
+import FeaturedListing from './_components/featuredlisting/FeaturedListing.jsx';
 export default function Home() {
   return (
     <div>
@@ -26,6 +26,8 @@ export default function Home() {
         ></div>
         <div className=" hidden  sm:block absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[370px] w-full bottom-0 left-0 "></div>
       </div>
+      {/* listing */}
+      <FeaturedListing />
     </div>
   );
 }

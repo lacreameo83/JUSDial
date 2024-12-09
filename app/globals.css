@@ -87,6 +87,60 @@
   opacity: 1; 
   transform: translateY(-50%) translateX(0); 
 }
+/* image box */
+
+.main {
+  border-bottom-left-radius: 30%;
+}
+.mainboxbottom {
+   border-top-right-radius: 50px;
+   box-shadow: 5px  -5px  0 5px white;
+   
+}
+.mainboxtop {
+   border-top-right-radius: 30px;
+   box-shadow: 5px  -5px  0 5px white;
+}
+
+/* hover */
+.cardcontainer  {
+  transition-duration: 9s; /* Adjust this number to make the zoom slower */
+  transition-timing-function: ease-in; /* Smooth easing */
+  transition-property:  background-size;
+}
+
+.cardcontainer:hover {
+  background-size: 350%;
+}
+
+
+.arrowparent {
+  width: 77.5px;
+  height: 77.5px;
+ 
+  position: relative;
+  overflow: hidden;
+  border: 2px solid rgb(29, 75, 59);
+  border-radius: 100%;
+}
+
+.arrowcontainer {
+  width: 77.5px;
+  height: 77.5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.cardcontainer:hover .arrowcontainer {
+  background-color: rgb(29, 75, 59);
+  transform: translateY(-50%) translateX(10px)
+  
+}
+
 
 
 
