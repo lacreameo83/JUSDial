@@ -29,7 +29,7 @@ const data = [
 ];
   
   return (
-    <div className=" gap-[5px] w-full md:gap-[20px] xl:gap-[13px]  text-black flex flex-col justify-center items-center ">
+    <div className=" gap-[18px] w-full  text-black flex flex-col justify-center items-center ">
       <div className="sm:h-[176px] h-[192px] w-[325px] sm:w-[727px] gap-[12px] flex items-center justify-center flex-col ">
         <div
           className="sm:w-[800px]  
@@ -49,10 +49,10 @@ PlusJakarta  h-[80x] w-[327px] text-center  font-[400] textcolor leading-[20px] 
       {/* input sides */}
       {/* search */}
       <div>
-        <div className="w-[325px] mt-[13.75px]   sm:mt-[45px] h-[283.76px] rounded-[14.73px] flex flex-col sm:flex-row xl:flex-row justify-center items-center  px-[11.78px] py-[22.58px] xl:py-0 xl:px-0 buttonbackgroundcolor m-auto  md:w-[826.66px]   xl:w-[1096.66px]  sm:h-[84.17px] sm:rounded-[12.02px]   ">
+        <div className="w-[325px] inputcontainer mt-[13.75px]   sm:mt-[45px] h-[283.76px] rounded-[14.73px] flex flex-col sm:flex-row xl:flex-row justify-center items-center  px-[11.78px] py-[22.58px] xl:py-0 xl:px-0 buttonbackgroundcolor m-auto  md:w-[826.66px]   xl:w-[1096.66px]  sm:h-[84.17px] sm:rounded-[12.02px]   ">
           <div className="sm:w-[1024.59px] px-[11.78px]  sm:px-0 sm:py-0  sm:h-[60.07px] h-[283.76px] justify-around sm:justify-between items-center flex flex-col sm:flex-row  ">
             <div
-              className="  sm:w-[178.44px]  sm:h-[17px] text-[12.24px] px-4 sm:px-0   flex items-center text-black 
+              className="inputbutton  sm:w-[178.44px]  sm:h-[17px] text-[12.24px] px-4 sm:px-0   flex items-center text-black 
 Nunito font-[400]  sm:text-[12.47px] sm:leading-[17.01px] sm:text-center w-[301.44px] h-[50.08px] sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  "
             >
               <div className=" ">
@@ -67,11 +67,11 @@ PlusJakarta  "
             {/* the divider */}
             <div className="h-[36.07px]  hidden sm:block md:mx-3 border-[1.2px] border-[#808080] text-center "></div>
             {/* select button */}
-            <div className="w-[301.44px] buttonbackgroundcolor  sm:bg-transparent  sm:w-[148.42px] relative sm:flex sm:items-center sm:justify-center">
+            <div className="inputbutton w-[301.44px] buttonbackgroundcolor  sm:bg-transparent  sm:w-[148.42px] relative sm:flex sm:items-center sm:justify-center">
               {/* Button to toggle dropdown */}
               <div
                 onClick={() => setIsSelectButton((prev) => !prev)}
-                className="w-full  h-[50.08px] px-2 sm:px-0 sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  flex items-center justify-between cursor-pointer"
+                className="w-full  h-[50.08px] px-4 sm:px-0 sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  flex items-center justify-between cursor-pointer"
               >
                 <button className="text-[14px] leading-[20px] font-[400]  placehoderscolors  sm:text-[16px] sm:leading-[24px] textcolor">
                   {selectbuttonvale}
@@ -112,9 +112,9 @@ PlusJakarta  "
 
             {/* location */}
 
-            <div className="h-[36.07px] hidden md:mx-3 sm:block border-[1.2px] border-[#808080] text-center "></div>
+            <div className=" h-[36.07px] hidden md:mx-3 sm:block border-[1.2px] border-[#808080] text-center "></div>
             <div
-              className="sm:w-[148px]   flex text-[12.24px] px-4 sm:h-[17px] text-black
+              className="sm:w-[148px] inputbutton  flex text-[12.24px] px-4 sm:h-[17px] text-black
 Nunito font-[400] sm:text-[12.47px] sm:leading-[17.01px] items-center text-center w-[301.44px] h-[50.08px] sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  "
             >
               <div className=" flex w-[301.44px] h-[26.35]  sm:w-[154.93px] items-center justify-between ">
@@ -132,7 +132,7 @@ PlusJakarta font-[400] sm:text-[16px] sm:leading-[24px] text-center "
 
             {/* for button */}
             <div className=" ">
-              <div className="backgroundcolor w-[301.44px]  gap-[7.39px] sm:gap-[12.02px] text-[#FFFFFF] px-[36.93px] sm:rounded-[6.01px] Nunito text-[12.48px] font-[500] h-[47.13px] leading-[17.01px] sm:w-[204.07px] rounded-[3.69px] sm:h-[60.07px] sm:py-[18.04px] py-[11.08px] sm:px-[60.12px] flex items-center justify-center  cursor-pointer transition-colors duration-300 ease-in-out ">
+              <div className="inputbutton  backgroundcolor w-[301.44px]  gap-[7.39px] sm:gap-[12.02px] text-[#FFFFFF] px-[36.93px] sm:rounded-[6.01px] Nunito text-[12.48px] font-[500] h-[47.13px] leading-[17.01px] sm:w-[204.07px] rounded-[3.69px] sm:h-[60.07px] sm:py-[18.04px] py-[11.08px] sm:px-[60.12px] flex items-center justify-center  cursor-pointer transition-colors duration-300 ease-in-out ">
                 <CiSearch className="w-[10.08px] h-[9.84px]  sm:w-[17.8px] sm:h-[17.8px] " />
                 <p
                   className="w-[48px] font-[500] h-[20px] text-[14px]  leading-[20px] text-white    sm:w-[54px] sm:h-[24px] 

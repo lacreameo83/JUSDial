@@ -91,15 +91,18 @@
 
 
 /* media  */
-@media screen and (max-width: 560px) {
- .gradient-background {
-  background: linear-gradient(
-    to bottom, /* Direction: from top to bottom */
-    rgba(255, 255, 255, 0) 0%, /* Slightly visible white at 0% */
-    rgba(255, 255, 255, 0.1) 20%, /* Slightly visible white at 20% */
-    rgba(255, 255, 255, 0.1) 40%, /* Slightly visible white at 40% */
-    rgba(255, 255, 255,0. 1) 100% /* Nearly transparent white at 100% */
-  );
- 
-}
+@media only screen 
+  and (max-width: 375px) 
+   {
+  
+  .nav {
+    margin-bottom: 20px;
+  }
+  .inputcontainer {
+    width: 300px;
+   margin-bottom: 20px;
+  }
+  .inputbutton  {
+    width: 280px;
+  }
 }
