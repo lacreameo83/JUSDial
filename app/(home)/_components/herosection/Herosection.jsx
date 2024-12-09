@@ -29,8 +29,8 @@ const data = [
 ];
   
   return (
-    <div className=" gap-[5px] w-[100vw] md:gap-[20px] xl:gap-[13px]  text-black flex flex-col justify-center items-center ">
-      <div className="sm:h-[176px] h-[192px] w-[325px] sm:w-[727px] gap-[12px] flex flex-col ">
+    <div className=" gap-[5px] w-full md:gap-[20px] xl:gap-[13px]  text-black flex flex-col justify-center items-center ">
+      <div className="sm:h-[176px] h-[192px] w-[325px] sm:w-[727px] gap-[12px] flex items-center justify-center flex-col ">
         <div
           className="sm:w-[800px]  
 PlusJakarta  w-[326px]   text-[24px] font-[700] h-[96px] text-[#1F1F1F] text-center  sm:h-[120px] leading-[32px]   sm:text-[48px] sm:leading-[60px]"
@@ -49,7 +49,7 @@ PlusJakarta  h-[80x] w-[327px] text-center  font-[400] textcolor leading-[20px] 
       {/* input sides */}
       {/* search */}
       <div>
-        <div className="w-[325px] mt-[13.75px] md:ml-12 xl:ml-0  sm:mt-[45px] h-[283.76px] rounded-[14.73px] flex flex-col sm:flex-row xl:flex-row justify-center items-center  px-[11.78px] py-[22.58px] xl:py-0 xl:px-0 buttonbackgroundcolor m-auto  md:w-[826.66px]   xl:w-[1096.66px]  sm:h-[84.17px] sm:rounded-[12.02px]   ">
+        <div className="w-[325px] mt-[13.75px]   sm:mt-[45px] h-[283.76px] rounded-[14.73px] flex flex-col sm:flex-row xl:flex-row justify-center items-center  px-[11.78px] py-[22.58px] xl:py-0 xl:px-0 buttonbackgroundcolor m-auto  md:w-[826.66px]   xl:w-[1096.66px]  sm:h-[84.17px] sm:rounded-[12.02px]   ">
           <div className="sm:w-[1024.59px] px-[11.78px]  sm:px-0 sm:py-0  sm:h-[60.07px] h-[283.76px] justify-around sm:justify-between items-center flex flex-col sm:flex-row  ">
             <div
               className="  sm:w-[178.44px]  sm:h-[17px] text-[12.24px] px-4 sm:px-0   flex items-center text-black 
@@ -85,7 +85,7 @@ PlusJakarta  "
 
               {/* Dropdown Menu */}
               <div
-                className={`absolute  rounded-2xl px-3 py-3 top-14 sm:top-20 left-0 w-full bg-white textcolor  shadow-md z-10 transition-all duration-500 ease-in-out ${
+                className={`absolute  rounded-2xl px-3 py-3 top-14 sm:top-15 left-0 w-full sm:right-[5rem] sm:w-[200px] bg-white textcolor  shadow-md z-10 transition-all duration-500 ease-in-out ${
                   isSelectButton
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 -translate-y-4"
