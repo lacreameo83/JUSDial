@@ -165,24 +165,28 @@
   and (min-width: 1590px) 
    {
   .gapdisplay {
-    gap: 1rem;
+    gap: 10rem;
   }
   .hide {
     display: none;
   }
   .shadowdisplay {
-    height: 1300px;
+    height: 500px;
     
   }
 }
 
-/* @media only screen and (min-width: 1280px) and (max-width: 1880px) 
+@media only screen and (min-width: 1270px) and (max-width: 1880px) 
     {
   .gapdisplay {
     gap: 4rem;
   }
+   .shadowdisplay {
+    height: 320px;
+    
+  }
   
-} */
+}
 @media only screen and (min-width: 768px) and (max-width: 1270px) 
     {
   .gapdisplay {

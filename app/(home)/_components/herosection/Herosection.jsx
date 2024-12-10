@@ -115,13 +115,13 @@ PlusJakarta  "
             <div className=" h-[36.07px] hidden md:mx-3 sm:block border-[1.2px] border-[#808080] text-start "></div>
             <div
               className="sm:w-[148px] inputbutton  flex text-[12.24px] px-4 sm:h-[17px] text-black
-Nunito font-[400] sm:text-[12.47px] sm:leading-[17.01px] items-center text-center w-[301.44px] h-[50.08px] sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  "
+Nunito font-[400] sm:text-[12.47px] sm:leading-[17.01px] items-center  w-[301.44px] h-[50.08px] sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  "
             >
               <div className=" flex w-[301.44px] h-[26.35]  sm:w-[154.93px] items-center justify-between ">
                 <input
                   type="text"
                   className="w-[59px] h-[20px] text-[14px] leading-[20px] sm:w-[67px]  outline-none bg-transparent placehoderscolors 
-PlusJakarta font-[400] sm:text-[16px] sm:leading-[24px] text-center "
+PlusJakarta font-[400] sm:text-[16px] sm:leading-[24px]  "
                   placeholder="Location "
                 />
                 <p>

@@ -14,7 +14,7 @@ export default function Home() {
          
           className="absolute gradient-background bg-cover  z-10 h-[50vh] w-full  "
         ></div> */}
-        <div className="relative z-50 flex flex-col gap-[4rem] xl:gap-[4rem] 2xl:gap-[10rem] gapdisplay  ">
+        <div className="relative z-50 flex flex-col gap-[4rem]  gapdisplay  ">
           <Nav />
           <Herosection />
         </div>
@@ -24,7 +24,7 @@ export default function Home() {
           }}
           className="absolute bottom-0 left-0 w-full bg-center   bg-cover h-[800px]    sm:h-[847px] bg-no-repeat   z-30  hide "
         ></div>
-        <div className=" hidden  sm:block absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[300px] 2xl:h-[500px] shadowdisplay  w-full bottom-0 left-0 "></div>
+        <div className=" hidden  sm:block absolute gradient-background h-[700px]  z-30 shadowdisplay  w-full bottom-0 left-0 "></div>
       </div>
       {/* listing */}
       <FeaturedListing />
