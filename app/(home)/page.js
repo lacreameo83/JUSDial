@@ -14,7 +14,7 @@ export default function Home() {
          
           className="absolute gradient-background bg-cover  z-10 h-[50vh] w-full  "
         ></div> */}
-        <div className="relative z-50">
+        <div className="relative z-50 flex flex-col gap-[4rem] max-2xl:gap-[6rem] ">
           <Nav />
           <Herosection />
         </div>
@@ -22,9 +22,9 @@ export default function Home() {
           style={{
             backgroundImage: `url('/homeImages/62.png')`,
           }}
-          className="absolute bottom-0 left-0 w-full bg-center 2xl:h-[300px]  bg-cover h-[800px]   sm:h-[897px] bg-no-repeat   z-30 "
+          className="absolute bottom-0 left-0 w-full bg-center   bg-cover h-[800px]   sm:h-[847px] bg-no-repeat   z-30  max-2xl:hidden "
         ></div>
-        <div className=" hidden  sm:block absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[370px]  2xl:h-[500px] w-full bottom-0 left-0 "></div>
+        <div className=" hidden  sm:block absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[300px]   w-full bottom-0 left-0 "></div>
       </div>
       {/* listing */}
       <FeaturedListing />
