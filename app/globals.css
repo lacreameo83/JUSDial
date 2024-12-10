@@ -165,14 +165,14 @@
   and (min-width: 1590px) 
    {
   .gapdisplay {
-    gap: 15rem;
+    gap: 25rem;
   }
   .hide {
     display: none;
   }
   .shadowdisplay {
-    height: 800px;
-    background-color: #364436;
+    height: 1300px;
+    
   }
 }
 
