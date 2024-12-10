@@ -22,9 +22,9 @@ export default function Home() {
           style={{
             backgroundImage: `url('/homeImages/62.png')`,
           }}
-          className="absolute bottom-0 left-0 w-full bg-center  bg-cover h-[800px]   sm:h-[897px] bg-no-repeat   z-30 "
+          className="absolute bottom-0 left-0 w-full bg-center 2xl:h-[500px]  bg-cover h-[800px]   sm:h-[897px] bg-no-repeat   z-30 "
         ></div>
-        <div className=" hidden  sm:block absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[370px] w-full bottom-0 left-0 "></div>
+        <div className=" hidden  sm:block absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[370px]  2xl:h-[500px] w-full bottom-0 left-0 "></div>
       </div>
       {/* listing */}
       <FeaturedListing />
