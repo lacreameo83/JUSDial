@@ -160,3 +160,14 @@
     width: 280px;
   }
 }
+
+@media only screen 
+  and (max-width: 2000px) 
+   {
+  .gapdisplay {
+    gap: 10rem;
+  }
+  .hide {
+    display: none;
+  }
+}
