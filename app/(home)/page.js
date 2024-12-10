@@ -14,7 +14,7 @@ export default function Home() {
          
           className="absolute gradient-background bg-cover  z-10 h-[50vh] w-full  "
         ></div> */}
-        <div className="relative z-50 flex flex-col gap-[4rem] xl:gap-[4rem] gapdisplay  ">
+        <div className="relative z-50 flex flex-col gap-[4rem] xl:gap-[4rem] 2xl:gap-[10rem] gapdisplay  ">
           <Nav />
           <Herosection />
         </div>
