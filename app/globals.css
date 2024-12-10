@@ -165,7 +165,7 @@
   and (min-width: 1590px) 
    {
   .gapdisplay {
-    gap: 25rem;
+    gap: 1rem;
   }
   .hide {
     display: none;
