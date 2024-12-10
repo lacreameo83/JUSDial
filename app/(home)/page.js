@@ -24,7 +24,7 @@ export default function Home() {
           }}
           className="absolute bottom-0 left-0 w-full bg-center   bg-cover h-[800px]    sm:h-[847px] bg-no-repeat   z-30  hide "
         ></div>
-        <div className=" hidden  sm:block absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[300px]   w-full bottom-0 left-0 "></div>
+        <div className=" hidden  sm:block absolute gradient-background h-[700px] md:h-[1300px] z-30 xl:h-[300px] shadow  w-full bottom-0 left-0 "></div>
       </div>
       {/* listing */}
       <FeaturedListing />

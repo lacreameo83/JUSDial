@@ -165,10 +165,13 @@
   and (min-width: 1590px) 
    {
   .gapdisplay {
-    gap: 10rem;
+    gap: 12rem;
   }
   .hide {
     display: none;
+  }
+  .shadow {
+    height: 500px;
   }
 }
 
