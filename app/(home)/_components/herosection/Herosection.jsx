@@ -49,7 +49,7 @@ PlusJakarta  h-[80x] w-[327px] text-center  font-[400] textcolor leading-[20px] 
       {/* input sides */}
       {/* search */}
       <div>
-        <div className="w-[325px] inputcontainer mt-[13.75px]   sm:mt-[45px] h-[283.76px] rounded-[14.73px] flex flex-col sm:flex-row xl:flex-row justify-center items-center  px-[11.78px] py-[22.58px] xl:py-0 xl:px-0 buttonbackgroundcolor m-auto  md:w-[826.66px]   xl:w-[1096.66px]  sm:h-[84.17px] sm:rounded-[12.02px]   ">
+        <div className="w-[325px] inputcontainer mt-[13.75px]   sm:mt-[45px] h-[283.76px] rounded-[14.73px] flex flex-col sm:flex-row xl:flex-row justify-center items-center  px-[11.78px] py-[22.58px] xl:py-0 xl:px-0 buttonbackgroundcolor m-auto  md:w-[926.66px]   xl:w-[1096.66px]  sm:h-[84.17px] sm:rounded-[12.02px]   ">
           <div className="sm:w-[1024.59px] px-[11.78px]  sm:px-0 sm:py-0  sm:h-[60.07px] h-[283.76px] justify-around sm:justify-between items-center flex flex-col sm:flex-row  ">
             <div
               className="inputbutton  sm:w-[178.44px]  sm:h-[17px] text-[12.24px] px-4 sm:px-0   flex items-center text-black 
@@ -112,7 +112,7 @@ PlusJakarta  "
 
             {/* location */}
 
-            <div className=" h-[36.07px] hidden md:mx-3 sm:block border-[1.2px] border-[#808080] text-center "></div>
+            <div className=" h-[36.07px] hidden md:mx-3 sm:block border-[1.2px] border-[#808080] text-start "></div>
             <div
               className="sm:w-[148px] inputbutton  flex text-[12.24px] px-4 sm:h-[17px] text-black
 Nunito font-[400] sm:text-[12.47px] sm:leading-[17.01px] items-center text-center w-[301.44px] h-[50.08px] sm:bg-transparent rounded-[9.8px] sm:rounded-none bg-[#F3F3F3]  "
