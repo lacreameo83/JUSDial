@@ -162,7 +162,7 @@
 }
 
 @media only screen 
-  and (min-width: 2500px) 
+  and (min-width: 1590px) 
    {
   .gapdisplay {
     gap: 10rem;
