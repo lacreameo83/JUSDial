@@ -8,7 +8,7 @@ export default function Home() {
         style={{
           backgroundImage: `url('/homeImages/28.png')`,
         }}
-        className="min-h-[93vh] sm:min-h-[100vh]  px-[25px]   xl:px-[48px]  z-20    relative gradient-background    w-full bg-cover  "
+        className="min-h-[100vh] px-[25px] xl:px-[48px] z-20 relative bg-no-repeat gradient-background w-full bg-cover  "
       >
         {/* <div
          

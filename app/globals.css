@@ -111,13 +111,28 @@
 
 .cardcontainer:hover {
   background-size: 350%;
+  animation:backgroundsize 2s linear  ;
+}
+
+@keyframes backgroundsize {
+  0% {
+    background-size: 320%;
+  }
+   33% {
+    background-size: 330%;
+  }
+   66% {
+    background-size: 340%;
+  }
+   100% {
+    background-size: 350%;
+  }
 }
 
 
 .arrowparent {
   width: 77.5px;
   height: 77.5px;
- 
   position: relative;
   overflow: hidden;
   border: 2px solid rgb(29, 75, 59);
@@ -129,24 +144,65 @@
   height: 77.5px;
   border-radius: 50%;
   position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  /* top: 50%; */
+  /* left: 0; */
+  /* transform: translateY(-50%); */
+  /* transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; */
 }
+.arrowcontainer::after {
+  content: '➔'; 
+  position: absolute;
+  color: #F9F9FB;
+  width: 200px;
+  left: 50%;
+  opacity: 0px;
+  /* transform: rotate(40deg); */
+  top: 50%;
+  animation: arrow 1s ease-in 2s ;
+    transition: opacity 0.8s ease, transform 0.3s ease;
+   
+}
+
+@keyframes arrow {
+  0% {
+    transform: translateX(5pxpx) translateY(5px); /* Starting position */
+    opacity: 9;
+  }
+  50% {
+    transform: translateX(0) translateY(20px);
+     opacity: 9; /* Translated position */
+  }
+  100% {
+    transform: translateX(0) translateY(30px);
+     opacity: 9; /* Back to original position */
+  }
+}
+
+
 
 .cardcontainer:hover .arrowcontainer {
+  animation: translateBack 1s ease-in; /* Adds an animation */
   background-color: rgb(29, 75, 59);
-  transform: translateY(-50%) translateX(10px)
-  
+}
+
+@keyframes translateBack {
+  0% {
+    transform: translateX(10px) translateY(0); /* Starting position */
+  }
+  50% {
+    transform: translateX(20px) translateY(0); /* Translated position */
+  }
+  100% {
+    transform: translateX(30px) translateY(0); /* Back to original position */
+  }
 }
 
 
 
 
-/* media  */
+
 @media only screen 
-  and (max-width: 375px) 
+  and (min-width: 360px) 
    {
   
   .nav {

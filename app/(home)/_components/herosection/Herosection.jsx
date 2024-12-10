@@ -20,7 +20,7 @@ function Herosection() {
 const [isSelectButton,setIsSelectButton]=useState(false)
 const [selectbuttonvale,setselecebuttonvalue] =useState("Type")
 const data = [
-  { item: "contruction", id: 1 },
+  { item: "construction", id: 1 },
   { item: "Renovation", id: 2 },
   { item: "Buy", id: 3 },
   { item: "Sell", id: 4 },
@@ -29,7 +29,7 @@ const data = [
 ];
   
   return (
-    <div className=" gap-[18px] w-full  text-black flex flex-col justify-center items-center ">
+    <div className=" sm:gap-[18px] w-full  text-black flex flex-col justify-center mt-[-30px] sm:mt-0 items-center ">
       <div className="sm:h-[176px] h-[192px] w-[325px] sm:w-[727px] gap-[12px] flex items-center justify-center flex-col ">
         <div
           className="sm:w-[800px]  
@@ -85,7 +85,7 @@ PlusJakarta  "
 
               {/* Dropdown Menu */}
               <div
-                className={`absolute  rounded-2xl px-3 py-3 top-14 sm:top-15 left-0 w-full sm:right-[5rem] sm:w-[200px] bg-white textcolor  shadow-md z-10 transition-all duration-500 ease-in-out ${
+                className={`absolute  rounded-2xl px-3 py-3 top-14 sm:top-11 left-0 w-full sm:right-[5rem] sm:w-[200px] bg-white textcolor  shadow-md z-10 transition-all duration-500 ease-in-out ${
                   isSelectButton
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 -translate-y-4"
@@ -101,7 +101,7 @@ PlusJakarta  "
                         setselecebuttonvalue(el.item);
                         setIsSelectButton(false); // Close the dropdown after selection
                       }}
-                      className="p-2 cursor-pointer hover:text-black"
+                      className=" p-2 cursor-pointer hover:text-black"
                     >
                       {el.item}
                     </p>
