@@ -82,22 +82,9 @@
 }
 
 
-/* .hover-arrow::after {
-  content: '➔'; 
-  position: absolute;
-  opacity: 0; 
-  transform: translateX(-10px); 
-  transition: opacity 0.8s ease, transform 0.3s ease;
 
-  top: 50%;
-  transform: translateY(-50%) translateX(-10px); 
-} */
 
-/* .hover-arrow:hover::after {
-  opacity: 1; 
-  transform: translateY(-50%) translateX(0); 
-} */
-/* image box */
+
 
 .main {
   border-bottom-left-radius: 30%;
@@ -132,36 +119,7 @@
 }
 
 
-/* @keyframes background6 {
-  0% {
-    background-size: 1950px;
-  }
-   33% {
-    background-size: 1952px;
-  }
-   66% {
-    background-size: 1953px;
-  }
-   100% {
-    background-size: 1954px;
-  }
-} */
 
-
-/* @keyframes backgroundsize {
-  0% {
-    background-size: 320%;
-  }
-   33% {
-    background-size: 330%;
-  }
-   66% {
-    background-size: 340%;
-  }
-   100% {
-    background-size: 350%;
-  }
-} */
 
 
 .arrowparent {
@@ -178,62 +136,35 @@
   height: 77.5px;
   border-radius: 50%;
   position: absolute;
-  /* top: 50%; */
-  /* left: 0; */
-  /* transform: translateY(-50%); */
-  /* transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; */
+
 }
-/* .arrowcontainer::after {
-  content: '➔'; 
-  position: absolute;
-  color: #F9F9FB;
-  width: 200px;
-  left: 50%;
-  opacity: 0px;
-  /* transform: rotate(40deg); */
-  /* top: 50%;
-  animation: arrow 1s ease-in 2s ;
-    transition: opacity 0.8s ease, transform 0.3s ease; */
+
    
 
 
 
 
 .cardcontainer:hover .arrowcontainer {
-  animation: translateBack 1s linear; /* Adds an animation */
+  animation: translateBack 1s ease-in; /* Adds an animation */
   background-color: rgb(29, 75, 59);
 }
 
 @keyframes translateBack {
-   10% {
-    transform: translateX(-50px) translateY(0); /* Back to original position */
+   1% {
+    transform: translateX(-100px) translateY(0); 
+    background-color: rgb(29, 75, 59);/* Back to original position */
   }
-   100% {
-    transform: translateX(0) translateY(0); /* Back to original position */
+   50% {
+    transform: translateX(-100p) translateY(0);
+    background-color: rgb(29, 75, 59); /* Back to original position */
   }
   100% {
-    transform: translateX(0) translateY(0); /* Back to original position */
+    transform: translateX(-100p) translateY(0);
+    background-color: rgb(29, 75, 59); /* Back to original position */
   }
 }
 
-/* .cardcontainer:hover .upperarrow  {
- 
- animation:  arrow 0.1s ease-in  ;
- color: transparent;
-} 
 
-@keyframes arrow {
-  0% {
-    transform: translateX(-10px) translateY(30px);
-    color: transparent; /* Starting position */
-  /* }
-  50% {
-    transform: translateX(-80px) translateY(40px);
-    color: transparent;
-  }
-  100% {
-    transform: translateX(50px) translateY(0);
-     color: white; /* Back to original position */
   
 .mainfeaturedcategory-container {
   border-top-left-radius: 10%;
