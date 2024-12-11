@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
       <body>
         <CssBaseline />
         <main>{children}</main>
-        {/* <Footer /> */}
+        <div className="block">
+          <Footer />
+        </div>
       </body>
     </html>
   );

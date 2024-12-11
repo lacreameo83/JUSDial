@@ -29,8 +29,8 @@ export default function Home() {
       </div>
       {/* listing */}
       <FeaturedListing />
-      <div className='block'>
-        {" "}
+      <div >
+        
         <ExploreService />
       </div>
     </div>

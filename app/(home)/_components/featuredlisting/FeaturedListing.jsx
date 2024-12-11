@@ -10,7 +10,7 @@ function FeaturedListing() {
  
 
   return (
-    <div className=" sm:h-[2400px] xl:h-[1799px] w-full sm:w-[100%]  flex flex-col   items-center  ">
+    <div className="h-[4100px] sm:h-[2400px] xl:h-[1799px] w-full sm:w-[100%]  flex flex-col   items-center  ">
       <div className="w-[373px] mb-[29.82px] h-[102px] flex flex-col items-center justify-center mt-[16px]">
         <p className="font-[400] text-[14px] leading-[20px] w-[239px] h-[28px] PlusJakarta sm:font-[500] sm:text-[18px] sm:leading-[28px] text-center text-[#364436]">
           Featured Listing
