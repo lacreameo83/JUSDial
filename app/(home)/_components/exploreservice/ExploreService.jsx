@@ -15,10 +15,9 @@ function ExploreService() {
         </div>
         {/* images */}
         <div className="flex flex-col gap-[40px] ">
-          {data.slice(0, 6).map((el, index) => (
-            <div>
+          {data.slice(0, 6).map((el) => (
+            <div key={el.id}>
               <div
-                key={index}
                 style={{ backgroundImage: `url(${el.image2.src})` }}
                 className="w-[800px]   xl:w-[1184px] cardcontainerbox bg-cover  bg-no-repeat bg-center  rounded-[30px] h-[600px] relative bg-black  "
               >
