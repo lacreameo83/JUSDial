@@ -63,6 +63,16 @@
   );
  
 }
+.shadowdisplaygren {
+  background: linear-gradient(
+    to bottom, /* Direction: from top to bottom */
+    rgba(135, 170, 135, 0) 0%, /* Transparent green at 0% */
+    rgba(114, 144, 114, 0.6) 60%, /* Slightly visible green at 60% */
+    rgba(85, 107, 85, 0.95) 95%, /* Mostly visible green at 95% */
+    rgba(54, 68, 54, 1) 100% /* Fully visible green at 100% */
+  );
+}
+
 
 /* animations */
 .typeselectdropdom {
@@ -72,7 +82,7 @@
 }
 
 
-.hover-arrow::after {
+/* .hover-arrow::after {
   content: '➔'; 
   position: absolute;
   opacity: 0; 
@@ -81,12 +91,12 @@
 
   top: 50%;
   transform: translateY(-50%) translateX(-10px); 
-}
+} */
 
-.hover-arrow:hover::after {
+/* .hover-arrow:hover::after {
   opacity: 1; 
   transform: translateY(-50%) translateX(0); 
-}
+} */
 /* image box */
 
 .main {
@@ -104,17 +114,41 @@
 
 /* hover */
 .cardcontainer  {
-  transition-duration: 9s; /* Adjust this number to make the zoom slower */
-  transition-timing-function: ease-in; /* Smooth easing */
-  transition-property:  background-size;
+ transition: background-size 1s ease-in;
+ background-size: 300%;
 }
 
 .cardcontainer:hover {
   background-size: 350%;
-  animation:backgroundsize 2s linear  ;
+  /* animation:backgroundsize 1s ease-in  ; */
+}
+.cardcontainerbox {
+    transition: background-size 2s ease-in;
+    background-size: 1750px
 }
 
-@keyframes backgroundsize {
+.cardcontainerbox:hover {
+  background-size: 1950px; /* Zoom the background on hover */
+}
+
+
+/* @keyframes background6 {
+  0% {
+    background-size: 1950px;
+  }
+   33% {
+    background-size: 1952px;
+  }
+   66% {
+    background-size: 1953px;
+  }
+   100% {
+    background-size: 1954px;
+  }
+} */
+
+
+/* @keyframes backgroundsize {
   0% {
     background-size: 320%;
   }
@@ -127,7 +161,7 @@
    100% {
     background-size: 350%;
   }
-}
+} */
 
 
 .arrowparent {
@@ -149,7 +183,7 @@
   /* transform: translateY(-50%); */
   /* transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; */
 }
-.arrowcontainer::after {
+/* .arrowcontainer::after {
   content: '➔'; 
   position: absolute;
   color: #F9F9FB;
@@ -157,48 +191,62 @@
   left: 50%;
   opacity: 0px;
   /* transform: rotate(40deg); */
-  top: 50%;
+  /* top: 50%;
   animation: arrow 1s ease-in 2s ;
-    transition: opacity 0.8s ease, transform 0.3s ease;
+    transition: opacity 0.8s ease, transform 0.3s ease; */
    
-}
 
-@keyframes arrow {
-  0% {
-    transform: translateX(5pxpx) translateY(5px); /* Starting position */
-    opacity: 9;
-  }
-  50% {
-    transform: translateX(0) translateY(20px);
-     opacity: 9; /* Translated position */
-  }
-  100% {
-    transform: translateX(0) translateY(30px);
-     opacity: 9; /* Back to original position */
-  }
-}
 
 
 
 .cardcontainer:hover .arrowcontainer {
-  animation: translateBack 1s ease-in; /* Adds an animation */
+  animation: translateBack 1s linear; /* Adds an animation */
   background-color: rgb(29, 75, 59);
 }
 
 @keyframes translateBack {
-  0% {
-    transform: translateX(10px) translateY(0); /* Starting position */
+   10% {
+    transform: translateX(-50px) translateY(0); /* Back to original position */
   }
-  50% {
-    transform: translateX(20px) translateY(0); /* Translated position */
+   100% {
+    transform: translateX(0) translateY(0); /* Back to original position */
   }
   100% {
-    transform: translateX(30px) translateY(0); /* Back to original position */
+    transform: translateX(0) translateY(0); /* Back to original position */
   }
 }
 
+/* .cardcontainer:hover .upperarrow  {
+ 
+ animation:  arrow 0.1s ease-in  ;
+ color: transparent;
+} 
 
-
+@keyframes arrow {
+  0% {
+    transform: translateX(-10px) translateY(30px);
+    color: transparent; /* Starting position */
+  /* }
+  50% {
+    transform: translateX(-80px) translateY(40px);
+    color: transparent;
+  }
+  100% {
+    transform: translateX(50px) translateY(0);
+     color: white; /* Back to original position */
+  
+.mainfeaturedcategory-container {
+  border-top-left-radius: 10%;
+}
+.mainboxbottom-featuredcategory-container {
+   border-bottom-right-radius: 50px;
+   box-shadow: 6px  5px  0px 4px white;
+   
+}
+.mainboxtop-featuredcategory-container {
+   border-bottom-right-radius: 30px;
+   box-shadow: 6px  5px  0 4px white;
+}
 
 
 @media only screen 

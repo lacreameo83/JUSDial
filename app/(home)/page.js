@@ -1,6 +1,7 @@
 import Nav from './_components/nav/Navbar.jsx'
 import Herosection from './_components/herosection/Herosection.jsx'
 import FeaturedListing from './_components/featuredlisting/FeaturedListing.jsx';
+import ExploreService from './_components/exploreservice/ExploreService.jsx';
 export default function Home() {
   return (
     <div>
@@ -28,6 +29,10 @@ export default function Home() {
       </div>
       {/* listing */}
       <FeaturedListing />
+      <div className='block'>
+        {" "}
+        <ExploreService />
+      </div>
     </div>
   );
 }
