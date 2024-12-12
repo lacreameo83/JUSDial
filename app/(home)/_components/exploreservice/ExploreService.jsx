@@ -39,7 +39,7 @@ PlusJakarta text-[18px]    sm:w-[464px] leading-[28px] sm:h-[30px] PlusJakarta f
                       >
                         <p>{el.purpose}</p>
                       </div>
-                      <div className="w-[327px]  primarycolor h-[54px] PlusJakarta leading-[18px] sm:w-[385px] sm:h-[72px] PlusJakarta font-[400] sm:leading-[24px] text-[16px] sm:text-justify  ">
+                      <div className="w-[300px]  primarycolor h-[54px] PlusJakarta leading-[18px] sm:w-[385px] sm:h-[72px] PlusJakarta font-[400] sm:leading-[24px] text-[16px] sm:text-justify  ">
                         <p>{el.desciption}</p>
                       </div>
                     </div>
