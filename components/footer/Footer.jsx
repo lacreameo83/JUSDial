@@ -2,13 +2,14 @@
 
 import React from "react";
 import IconButton from "../iconbutton/IconButton";
-import { FacebookRounded, Instagram } from "@mui/icons-material"; // Correct icon imports
+import { FacebookRounded, Instagram } from "@mui/icons-material";
 import CallOutlinedIcon from "@mui/icons-material/CallOutlined";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import { SlSocialTwitter } from "react-icons/sl";
+
 export default function Footer() {
   return (
-    <div className="w-full bg-[#364436] px-12 sm:pl-20 text-white flex flex-col items-center py-8">
+    <div className="w-full bg-[#364436] px-12 text-white flex flex-col items-center py-8">
       {/* Main Footer Section */}
       <div className="w-full max-w-7xl px-4 sm:px-8 flex flex-col sm:flex-row justify-between gap-8">
         {/* Build Estate Section */}

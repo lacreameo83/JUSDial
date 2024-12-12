@@ -113,6 +113,141 @@ const data = [
       "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
     image: house1,
   },
+  {
+    id: 9,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house4,
+    purpose: "Rent Your Ideal Home or Office",
+    desciption:
+      "Looking for a rental? Explore top listings for apartments, houses, or office spaces available for rent. Find the perfect space today.",
+    image2: boximage4,
+    units: "Sell",
+  },
+  {
+    id: 10,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house5,
+    purpose: "Long-Term Leasing Made Easy",
+    desciption:
+      "Find the best leasing opportunities for homes, offices, or commercial spaces. Enjoy flexible leasing options for your needs..",
+    image2: boximage5,
+    units: "Rent",
+  },
+  {
+    id: 11,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house1,
+    purpose: "Building the Future Together",
+    desciption:
+      "Explore the latest construction projects, from residential to commercial developments. Find reliable builders and contractors for your next big project.",
+    image2: boximage6,
+    units: "Lease",
+  },
+  {
+    id: 12,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house5,
+    purpose: "Building the Future Together",
+    desciption:
+      "Explore the latest construction projects, from residential to commercial developments. Find reliable builders and contractors for your next big project.",
+  },
+  {
+    id: 13,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house1,
+  },
+  {
+    id: 14,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house5,
+    purpose: "Building the Future Together",
+    desciption:
+      "Explore the latest construction projects, from residential to commercial developments. Find reliable builders and contractors for your next big project.",
+  },
+  {
+    id: 15,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house1,
+  },
+  {
+    id: 16,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house4,
+    purpose: "Rent Your Ideal Home or Office",
+    desciption:
+      "Looking for a rental? Explore top listings for apartments, houses, or office spaces available for rent. Find the perfect space today.",
+    image2: boximage4,
+    units: "Sell",
+  },
+  {
+    id: 17,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house5,
+    purpose: "Long-Term Leasing Made Easy",
+    desciption:
+      "Find the best leasing opportunities for homes, offices, or commercial spaces. Enjoy flexible leasing options for your needs..",
+    image2: boximage5,
+    units: "Rent",
+  },
+  {
+    id: 18,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house1,
+    purpose: "Building the Future Together",
+    desciption:
+      "Explore the latest construction projects, from residential to commercial developments. Find reliable builders and contractors for your next big project.",
+    image2: boximage6,
+    units: "Lease",
+  },
+  {
+    id: 19,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house5,
+    purpose: "Building the Future Together",
+    desciption:
+      "Explore the latest construction projects, from residential to commercial developments. Find reliable builders and contractors for your next big project.",
+  },
+  {
+    id: 20,
+    title: "AED 2,930,000",
+    model: "Modern Family Home",
+    values:
+      "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+    image: house1,
+  },
 ];
 
 export default data

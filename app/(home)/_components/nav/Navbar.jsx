@@ -2,10 +2,11 @@ import React from "react";
 import { MdAdd } from "react-icons/md";
 import { BsList } from "react-icons/bs";
 import { FaLayerGroup } from "react-icons/fa";
+import MenuIcon from "@mui/icons-material/Menu";
 
 function Navbar() {
   return (
-    <div className="h-[48pxpx] nav pt-[14px]  sm:pt-[37px]  flex items-center justify-between  ">
+    <div className="h-[48pxpx] nav pt-[18px]  sm:pt-[37px]  flex items-center justify-between  ">
       {/* Logo Section */}
       <div className="PlusJakarta font-[800]  leading-[22.62px] w-[57px]  sm:w-[85px] h-[30px] sm:h-[44px]  flex items-center  flex-col gap-1  primarycolor">
         <p className="sm:h-[18.06px] h-[17.81px] font-[700] text-[16.09px] sm:text-[24px] leading-[6.71px]  sm:leading-[10px] ">
@@ -49,7 +50,7 @@ function Navbar() {
 
       {/* Mobile Menu Icon (Visible on small screens) */}
       <div className="block sm:hidden">
-        <BsList className="cursor-pointer text-black  transition-all h-[20px] w-[28px] duration-300" />
+        <MenuIcon className="cursor-pointer text-black  transition-all h-[38px] w-[38px] duration-300" />
       </div>
     </div>
   );
