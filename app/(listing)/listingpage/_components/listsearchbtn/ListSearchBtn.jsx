@@ -10,7 +10,7 @@ export default function ListSearchBtn() {
   return (
     <div className="w-full smallscreen h-[82vh]  md:h-[28vh]  xl:h-[33vh] flex flex-col items-center pt-10  ">
       <div className=" xl:w-[1185.51px] md:w-[800px] gap-8 h-[1500px] sm:h-[82.07px] flex flex-col  ">
-        <div className=" w-[300px] md:w-[800px] h-[55vh] xl:w-[1185.51px] sm:h-[82.07px] rounded-[12.02px] bg-[#F9F9FB] py-[11px] flex items-center justify-center px-[53px] ">
+        <div className=" w-[300px] md:w-[800px] h-[50vh] xl:w-[1185.51px] sm:h-[82.07px] rounded-[12.02px] bg-[#F9F9FB] py-[11px] flex items-center justify-center px-[53px] ">
           <div className="w-[1115.51px] h-[50vh] flex flex-col sm:flex-row items-center justify-around sm:h-[60.07px] ">
             {/* contents in the search button */}
             <div>
