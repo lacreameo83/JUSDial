@@ -27,6 +27,7 @@ const data = [
     desciption:
       "Explore the latest construction projects, from residential to commercial developments. Find reliable builders and contractors for your next big project.",
     image2: boximage1,
+    units: "Construction",
   },
   {
     id: 2,
@@ -39,6 +40,7 @@ const data = [
     desciption:
       "Browse a wide selection of homes, apartments, and commercial properties for sale. Make your dream purchase today..",
     image2: boximage2,
+    units: "Renovation",
   },
   {
     id: 3,
@@ -51,6 +53,7 @@ const data = [
     desciption:
       "Ready to sell? Get your property listed with us and connect with buyers quickly. We provide hassle-free selling solutions.",
     image2: boximage3,
+    units: "Buy",
   },
   {
     id: 4,
@@ -63,6 +66,7 @@ const data = [
     desciption:
       "Looking for a rental? Explore top listings for apartments, houses, or office spaces available for rent. Find the perfect space today.",
     image2: boximage4,
+    units: "Sell",
   },
   {
     id: 5,
@@ -75,6 +79,7 @@ const data = [
     desciption:
       "Find the best leasing opportunities for homes, offices, or commercial spaces. Enjoy flexible leasing options for your needs..",
     image2: boximage5,
+    units: "Rent",
   },
   {
     id: 6,
@@ -87,6 +92,7 @@ const data = [
     desciption:
       "Explore the latest construction projects, from residential to commercial developments. Find reliable builders and contractors for your next big project.",
     image2: boximage6,
+    units: "Lease",
   },
   {
     id: 7,
