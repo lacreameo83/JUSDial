@@ -19,7 +19,7 @@ setMenuClicked(!menuclicked);
   };
   return (
     <div>
-      <div className="h-[48pxpx] nav pt-[18px]  sm:pt-[37px]  flex items-center justify-between  ">
+      <div className="h-[48pxpx] nav pt-[18px]  2xl:pt-[37px]  flex items-center justify-between  ">
         {/* Logo Section */}
         <div className="PlusJakarta font-[800]  leading-[22.62px] w-[33.47px] h-[36px]  sm:w-[85px]  sm:h-[44px]  flex items-center  flex-col gap-1  primarycolor">
           <Image
