@@ -12,9 +12,9 @@ function DropdownMenu({ options = [], title = "Select Type" }) {
       {/* Button to toggle dropdown */}
       <div
         onClick={() => setIsDropdownOpen((prev) => !prev)}
-        className="inputbutton w-[301.44px] buttonbackgroundcolor sm:bg-transparent sm:w-[148.42px]  relative sm:flex sm:items-center sm:justify-center"
+        className="inputbutton w-[298.44px] buttonbackgroundcolor sm:bg-transparent sm:w-[148.42px] rounded-[20px]  relative sm:flex sm:items-center sm:justify-center"
       >
-        <div className="w-full h-[50.08px] bg-white sm:bg-[#F9F9FB] px-4   rounded-[9.8px]   flex items-center justify-between cursor-pointer">
+        <div className="w-full h-[59.08px] bg-[#FAFAFA] sm:bg-[#F9F9FB] px-4   rounded-[9.8px]   flex items-center justify-between cursor-pointer">
           <button className="text-[14px] leading-[20px] font-[400] placehoderscolors sm:text-[16px] sm:leading-[24px] textcolor">
             {selectedValue}
           </button>
