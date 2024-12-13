@@ -78,10 +78,18 @@ setMenuClicked(!menuclicked);
           <div className="text-[30px] h-[70%] menucontents-container-child flex flex-col justify-between w-[80%]">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between w-full h-[5vh]">
-                <p>Home</p>
+                <div className="w-[57px]   h-[20px]">
+                  <Image
+                    className="block sm:hidden"
+                    src={logo2}
+                    alt="Logo"
+                    width={50}
+                    height={50}
+                  />
+                </div>
                 <p
                   onClick={handleMenuDelete}
-                  className="menucontentscontainer-deletebtn cursor-pointer transition-transform duration-300 transform hover:rotate-90 hover:scale-125"
+                  className="menucontentscontainer-deletebtn cursor-pointer text-[20px] transition-transform duration-300 transform hover:rotate-90 hover:scale-125"
                   aria-label="Close menu"
                 >
                   X
@@ -97,16 +105,18 @@ setMenuClicked(!menuclicked);
                   "Lease",
                 ].map((el, i) => (
                   <div key={i}>
-                    <p className="p-3 border-white border-b-[1px]">{el}</p>
+                    <p className="p-3 text-[16px] border-white border-b-[1px]">
+                      {el}
+                    </p>
                   </div>
                 ))}
               </nav>
             </div>
             <div className="flex flex-col gap-2">
-              <button className="border px-[10px] py-[10px] text-white bg-transparent">
+              <button className="border px-[8px] rounded-lg py-[8px] text-white bg-transparent">
                 Sign In
               </button>
-              <button className="border px-[10px] py-[10px] text-white bg-transparent">
+              <button className="border px-[8px] rounded-lg py-[8px] text-white bg-transparent">
                 Sign Up
               </button>
             </div>
