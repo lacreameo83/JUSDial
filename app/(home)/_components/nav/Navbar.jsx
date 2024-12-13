@@ -74,8 +74,8 @@ setMenuClicked(!menuclicked);
         </div>
       </div>
       {menuclicked && (
-        <div className="absolute flex items-center justify-center top-0 menucontentscontainer z-50 w-full h-[100vh] transition duration-300 menucontentscontainer-deletebtn animation-slideOut">
-          <div className="text-[30px] h-[80%] menucontents-container-child flex flex-col justify-between w-[80%]">
+        <div className="absolute flex items-center justify-center top-0 menucontentscontainer z-50 w-full h-[90vh] transition duration-300 menucontentscontainer-deletebtn animation-slideOut">
+          <div className="text-[30px] h-[70%] menucontents-container-child flex flex-col justify-between w-[80%]">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between w-full h-[5vh]">
                 <p>Home</p>
