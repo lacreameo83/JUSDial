@@ -139,7 +139,88 @@
 
 }
 
-   
+/*  */
+.menucontentscontainer-deletebtn {
+  animation: slideIndelete 0.2s ease-in-out forwards;
+}
+@keyframes lideIndelete {
+  0% {
+    width: 0;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transform: translatey(100%);
+  }
+  50% {
+    width: 70%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transform: translatey(0);
+  }
+  100% {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+
+
+
+.menucontentscontainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 0;
+  color: #F9F9FB;
+  background-color: rgba(54, 68, 54, 1);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  animation: slideInParent 0.2s ease-in-out forwards;
+  z-index: 50;
+}
+
+@keyframes slideInParent {
+  0% {
+    width: 0;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transform: translateX(100%);
+  }
+  50% {
+    width: 70%;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    transform: translateX(0);
+  }
+  100% {
+    width: 100%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+}
+
+.menucontents-container-child {
+  /* position: relative; */
+  height: 100%;
+  
+  transform: translateX(200%);
+  animation: slideInChild 0.5s ease-in-out 0.5s forwards; /* Delayed animation */
+}
+
+@keyframes slideInChild {
+  0% {
+    transform: translateX(400%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
 
 
 
