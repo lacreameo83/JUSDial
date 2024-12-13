@@ -262,7 +262,7 @@
 
 
 @media only screen 
-  and (min-width: 360px) 
+  and (max-width: 760px) 
    {
   
   .nav {
@@ -277,6 +277,9 @@
   };
   .smallscreen {
     height: 1500px;
+  }
+  .gapdisplay {
+    gap: 4rem;
   }
 }
 
@@ -296,23 +299,23 @@
    
 }
 
+
+
 @media only screen and (min-width: 1270px) and (max-width: 1280px) 
     {
   .gapdisplay {
-    gap: 4rem;
+    gap: 8rem;
   }
    .shadowdisplay {
-    height: 320px;
+    height: 40%;
     
   }
   
 }
-@media only screen and (min-width: 768px) and (max-width: 1270px) 
+@media only screen and (min-width: 768px) and (max-width: 1269px) 
     {
   .gapdisplay {
-    gap: 12rem;
+    gap: 5px;
   }
-   .hide {
-    display: none;
-  }
+  
 }

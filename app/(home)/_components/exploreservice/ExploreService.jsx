@@ -19,27 +19,27 @@ function ExploreService() {
             <div key={el.id}>
               <div
                 style={{ backgroundImage: `url(${el.image2.src})` }}
-                className="w-[327px] h-[264px]  sm:w-[800px]   xl:w-[1184px] cardcontainerbox bg-cover  bg-no-repeat bg-center  rounded-[30px] sm:h-[600px] relative bg-black  "
+                className="w-[327px] h-[264px]  md:w-[750px]   2xl:w-[1184px] cardcontainerbox bg-cover  bg-no-repeat bg-center  rounded-[30px] sm:h-[600px] relative bg-black  "
               >
                 <div className="absolute text-[30px] leading-[28px] text-white z-50 font-[400] sm:leading-[72px]  sm:text-[60px] PlusJakarta p-5 sm:p-10 bottom-0 left-0">
                   {el.units}
                 </div>
-                <div className=" hidden  sm:block absolute shadowdisplaygren h-[250px]  z-30  rounded-b-[30px] w-[370px] 2xl:w-[750px] bottom-0 left-0 "></div>
+                <div className=" hidden  sm:block absolute shadowdisplaygren h-[250px]  z-30  rounded-b-[30px] md:w-[52%]  2xl:w-[750px] bottom-0 left-0 "></div>
                 {/* white box */}
-                <div className=" block w-[327px] h-[100px]  top-[280px]  sm:h-[320px] sm:w-[435px] mainfeaturedcategory-container bg-white absolute sm:bottom-0 sm:right-0 ">
+                <div className=" block w-[327px] h-[100px]  top-[280px]  2xl:h-[320px] md:h-[320px] md:w-[360px] 2xl:w-[435px] mainfeaturedcategory-container bg-white absolute sm:bottom-0 sm:right-0 ">
                   <div className=" hidden sm:block w-[30px] absolute h-[30px] bg-transparent top-[-30px] mainboxtop-featuredcategory-container right-0 "></div>
                   <div className=" hidden sm:block   w-[30px] absolute h-[30px] mainboxbottom-featuredcategory-container  bg-transparent bottom-0 left-[-30px] "></div>
 
                   {/* side box */}
-                  <div className="  flex flex-col items-start w-[327px] h-[142px]  justify-between sm:w-[399px] sm:h-[250px] absolute left-[10%] top-[10%] ">
+                  <div className="  flex flex-col items-start md:w-[307px] h-[142px]  justify-between   2xl:w-[399px] sm:h-[250px] absolute left-[10%] top-[10%] ">
                     <div>
                       <div
                         className="w-[327px] 
-PlusJakarta text-[18px]    sm:w-[464px] leading-[28px] sm:h-[30px] PlusJakarta font-[700] sm:text-[20px] sm:leading-[30px]  "
+PlusJakarta text-[18px]    sm:w-[360px] leading-[28px] sm:h-[30px] PlusJakarta font-[700] sm:text-[20px] sm:leading-[30px]  "
                       >
                         <p>{el.purpose}</p>
                       </div>
-                      <div className="w-[325px]  primarycolor h-[54px] PlusJakarta leading-[18px] sm:w-[385px] sm:h-[72px] PlusJakarta font-[400] sm:leading-[24px] text-[16px] sm:text-justify  ">
+                      <div className="w-[325px]  primarycolor h-[54px] PlusJakarta leading-[18px] md:w-[300px] 2xl:w-[385px] sm:h-[72px] PlusJakarta font-[400] sm:leading-[24px] text-[16px] sm:text-justify  ">
                         <p>{el.desciption}</p>
                       </div>
                     </div>
