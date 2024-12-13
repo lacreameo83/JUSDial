@@ -21,7 +21,7 @@ function FeaturedListing() {
         </p>
       </div>
       {/* The listing */}
-      <div className="h-[2000px]   xl:h-[615.6px] z-50 gap-[40px] sm:gap-[18px] sm:h-[1454px] w-[327px]  sm:w-[800px] 2xl:w-[1184px] mt-[20px] grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-3">
+      <div className="h-[2000px]   xl:h-[615.6px] z-50 gap-[40px] sm:gap-[18px] sm:h-[1454px] w-[327px]  sm:w-[800px] xl:w-[1184px] mt-[20px] grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-3">
         {data.slice(0, 6).map((el) => (
           <div
             key={el.id}
