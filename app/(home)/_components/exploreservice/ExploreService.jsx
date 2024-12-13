@@ -24,9 +24,9 @@ function ExploreService() {
                 <div className="absolute text-[30px] leading-[28px] text-white z-50 font-[400] sm:leading-[72px] md:text-[45px]  2xl:text-[60px] PlusJakarta p-5 sm:p-10 bottom-0 left-0">
                   {el.units}
                 </div>
-                <div className=" hidden  sm:block absolute shadowdisplaygren h-[250px]  z-30  rounded-b-[30px] md:w-[57.5%] xl:w-[70.3%]  2xl:w-[750px] bottom-0 left-0 "></div>
+                <div className=" hidden  sm:block absolute shadowdisplaygren h-[250px]  z-30  rounded-b-[30px] md:w-[55%] xl:w-[64.3%]  2xl:w-[750px] bottom-0 left-0 "></div>
                 {/* white box */}
-                <div className=" block w-[327px] h-[100px]  top-[280px]  2xl:h-[320px] md:h-[320px] md:w-[360px] 2xl:w-[435px] mainfeaturedcategory-container bg-white absolute sm:bottom-0 sm:right-0 ">
+                <div className=" block w-[327px] h-[100px]  top-[280px]   2xl:h-[320px] md:h-[320px] md:w-[360px] xl:w-[430px] 2xl:w-[435px] mainfeaturedcategory-container bg-white absolute sm:bottom-0 sm:right-0 ">
                   <div className=" hidden sm:block w-[30px] absolute h-[30px] bg-transparent top-[-30px] mainboxtop-featuredcategory-container right-0 "></div>
                   <div className=" hidden sm:block   w-[30px] absolute h-[30px] mainboxbottom-featuredcategory-container  bg-transparent bottom-0 left-[-30px] "></div>
 
@@ -39,7 +39,7 @@ PlusJakarta text-[18px]    sm:w-[360px] leading-[28px] sm:h-[30px] PlusJakarta f
                       >
                         <p>{el.purpose}</p>
                       </div>
-                      <div className="w-[325px]  primarycolor h-[54px] PlusJakarta leading-[18px] md:w-[300px] 2xl:w-[385px] sm:h-[72px] PlusJakarta font-[400] sm:leading-[24px] text-[16px] sm:text-justify  ">
+                      <div className="w-[325px]  primarycolor h-[54px] PlusJakarta leading-[18px] md:w-[300px] xl:w-[360px] 2xl:w-[385px] sm:h-[72px] PlusJakarta font-[400] sm:leading-[24px] text-[16px] sm:text-justify  ">
                         <p>{el.desciption}</p>
                       </div>
                     </div>
