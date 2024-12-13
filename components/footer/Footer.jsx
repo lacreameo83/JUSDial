@@ -9,7 +9,7 @@ import { SlSocialTwitter } from "react-icons/sl";
 
 export default function Footer() {
   return (
-    <div className="w-full bg-[#364436] px-12  text-white flex flex-col items-center py-8">
+    <div className="w-full bg-[#364436] px-2 sm:px-12  text-white flex flex-col items-center py-8">
       {/* Main Footer Section */}
       <div className=" w-full px-4 2xl:px-8 flex  flex-col sm:flex-row justify-between gap-8">
         {/* Build Estate Section */}
