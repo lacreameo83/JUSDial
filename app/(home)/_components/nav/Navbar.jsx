@@ -70,7 +70,7 @@ setMenuClicked(!menuclicked);
 
         {/* Mobile Menu Icon (Visible on small screens) */}
         <div onClick={handleIsMenuclicked} className="block  sm:hidden">
-          <MenuIcon className="cursor-pointer text-black  transition-all h-[38px] w-[38px] duration-300" />
+          <MenuIcon className="cursor-pointer text-[#0D0D0D]  transition-all h-[16px] w-[28px] duration-300" />
         </div>
       </div>
       {menuclicked && (
@@ -78,7 +78,7 @@ setMenuClicked(!menuclicked);
           <div className="text-[30px] h-[50%] menucontents-container-child flex flex-col gap-[20px] w-[80%]">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between w-full h-[5vh]">
-                <div className="w-[57px] text-white   h-[20px]">
+                <div className="w-[57px] text-white   h-[61px]">
                   <Image
                     className="block sm:hidden"
                     src={logo2}
