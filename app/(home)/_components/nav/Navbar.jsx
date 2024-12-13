@@ -6,6 +6,7 @@ import { FaLayerGroup } from "react-icons/fa";
 import MenuIcon from "@mui/icons-material/Menu";
 import logo1 from "../../../../public/logo/Logo-WordMark-Green.svg";
 import logo2 from "../../../../public/logo/Logo-Icon-Green.svg";
+import logo3 from "../../../../public/logo/Logo-Icon-White.svg";
 import Image from "next/image";
 
 function Navbar() {
@@ -81,7 +82,7 @@ setMenuClicked(!menuclicked);
                 <div className="w-[57px] text-white   h-[61px]">
                   <Image
                     className="block sm:hidden"
-                    src={logo2}
+                    src={logo3}
                     alt="Logo"
                     width={50}
                     height={50}
