@@ -19,19 +19,20 @@ function ExploreService() {
             <div key={el.id}>
               <div
                 style={{ backgroundImage: `url(${el.image2.src})` }}
-                className="w-[327px] h-[264px]  md:w-[800px] xl:w-[1200px]    2xl:w-[1184px] cardcontainerbox bg-cover  bg-no-repeat bg-center  rounded-[30px] sm:h-[600px] relative bg-black  "
+                className="w-[327px] h-[264px]  md:w-[800px] xl:w-[64rem]    2xl:w-[1184px] cardcontainerbox bg-cover  bg-no-repeat bg-center  rounded-[30px] sm:h-[600px] relative bg-black  "
               >
                 <div className="absolute text-[30px] leading-[28px] text-white z-50 font-[400] sm:leading-[72px] md:text-[45px]  2xl:text-[60px] PlusJakarta p-5 sm:p-10 bottom-0 left-0">
                   {el.units}
                 </div>
-                <div className=" hidden  sm:block absolute shadowdisplaygren h-[250px]  z-30  rounded-b-[30px] md:w-[55%] xl:w-[64.3%]  2xl:w-[750px] bottom-0 left-0 "></div>
+                {/* green shadow */}
+                <div className=" hidden  sm:block absolute shadowdisplaygren h-[250px]  z-30  rounded-b-[30px] md:w-[55%] xl:w-[58%]  2xl:w-[750px] bottom-0 left-0 "></div>
                 {/* white box */}
-                <div className=" block w-[327px] h-[100px]  top-[280px]   2xl:h-[320px] md:h-[320px] md:w-[360px] xl:w-[430px] 2xl:w-[435px] mainfeaturedcategory-container bg-white absolute sm:bottom-0 sm:right-0 ">
+                <div className=" block w-[327px] h-[160px] bg-white  top-[280px]   2xl:h-[320px] md:h-[320px] md:w-[360px] xl:w-[430px] 2xl:w-[435px] mainfeaturedcategory-container  absolute sm:bottom-0 right-1 sm:right-0 ">
                   <div className=" hidden sm:block w-[30px] absolute h-[30px] bg-transparent top-[-30px] mainboxtop-featuredcategory-container right-0 "></div>
                   <div className=" hidden sm:block   w-[30px] absolute h-[30px] mainboxbottom-featuredcategory-container  bg-transparent bottom-0 left-[-30px] "></div>
 
                   {/* side box */}
-                  <div className="  flex flex-col items-start md:w-[307px] h-[142px]  justify-between   2xl:w-[399px] sm:h-[250px] absolute left-[10%] top-[10%] ">
+                  <div className="  flex flex-col bg-white  items-start md:w-[307px] h-[142px]  justify-between xl:w-[259px]   2xl:w-[399px] sm:h-[250px] absolute left-0 top-[10%] sm:left-3    ">
                     <div>
                       <div
                         className="w-[327px] 

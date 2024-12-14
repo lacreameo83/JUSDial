@@ -19,7 +19,7 @@ setMenuClicked(!menuclicked);
   };
   return (
     <div>
-      <div className="h-[48pxpx] nav pt-[18px]  2xl:pt-[37px]  flex items-center justify-between  ">
+      <div className="h-[48pxpx] px-[25px] xl:px-[48px] nav pt-[18px]  2xl:pt-[37px]  flex items-center justify-between  ">
         {/* Logo Section */}
         <div className="PlusJakarta font-[800]  leading-[22.62px] w-[33.47px] h-[36px]  sm:w-[85px]  sm:h-[44px]  flex items-center  flex-col gap-1  primarycolor">
           <Image
@@ -75,7 +75,7 @@ setMenuClicked(!menuclicked);
         </div>
       </div>
       {menuclicked && (
-        <div className="absolute flex items-center justify-center top-0 menucontentscontainer z-50 w-full h-[90vh] transition duration-300 menucontentscontainer-deletebtn animation-slideOut">
+        <div className="absolute pt-11 flex items-center justify-center top-0 menucontentscontainer z-[500px] w-full h-[100vh] transition duration-300 menucontentscontainer-deletebtn animation-slideOut">
           <div className="text-[30px] h-[50%] menucontents-container-child flex flex-col gap-[20px] w-[80%]">
             <div className="flex flex-col gap-4">
               <div className="flex items-center justify-between w-full h-[5vh]">

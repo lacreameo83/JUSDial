@@ -29,7 +29,7 @@ const data = [
 ];
   
   return (
-    <div className=" sm:gap-[18px] w-full  text-black flex flex-col justify-center mt-[-30px] sm:mt-0 items-center ">
+    <div className=" sm:gap-[18px] px-[25px] xl:px-[48px] w-full  text-black flex flex-col justify-center mt-[-30px] sm:mt-0 items-center ">
       <div className="sm:h-[176px] h-[192px] w-[325px] sm:w-[727px] gap-[12px] flex items-center justify-center flex-col ">
         <div
           className="sm:w-[800px]  

@@ -21,18 +21,18 @@ function FeaturedListing() {
         </p>
       </div>
       {/* The listing */}
-      <div className="h-[2000px]   xl:h-[615.6px] z-50 gap-[40px] sm:gap-[18px] sm:h-[1454px] w-[327px]  sm:w-[800px] xl:w-[1184px] mt-[20px] grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-3">
+      <div className="h-[2000px]   xl:h-[615.6px] z-50 xl:gap-[60px] 2xl:gap-[40px] sm:gap-[18px] sm:h-[1454px] w-[327px]  sm:w-[800px] xl:w-[57rem] 2xl:w-[1184px] mt-[20px] grid grid-cols-1  sm:grid-cols-2 xl:grid-cols-3">
         {data.slice(0, 6).map((el) => (
           <div
             key={el.id}
-            className="h-[615.6px] w-[327px] gap-[24.48px] sm:h-[704px] sm:w-[270px]    xl:w-[374px] flex flex-col justify-center sm:gap-[48px]"
+            className="h-[615.6px] w-[327px] gap-[24.48px] md:h-[704px] xl:w-[23.4375rem]    2xl:w-[374px] flex flex-col justify-center sm:gap-[48px]"
           >
             {/* Image container */}
             <div
               style={{
                 backgroundImage: `url(${el.image.src})`,
               }}
-              className=" group transition-all duration-500 h-[437.17px] w-[327px] sm:h-[500px] cardcontainer rounded-[30px] sm:w-[375px] bg-center bg-cover bg-no-repeat   relative bg-white"
+              className=" group transition-all duration-500 h-[437.17px] w-[327px] sm:h-[500px] cardcontainer rounded-[30px] xl:w-[18.4375rem] 2xl:w-[375px] bg-center bg-cover bg-no-repeat   relative bg-white"
             >
               {/* <p className="  "> */}
               <Link href="/listingpage">
@@ -78,10 +78,10 @@ function FeaturedListing() {
                 {el.title}
               </div>
               <div>
-                <div className="w-[327px] h-[28px] leading-[27.98px] text-[20.8px] sm:w-[374px] sm:h-[32px] PlusJakarta font-[600] sm:text-[24px] sm:leading-[32px]">
+                <div className="w-[327px] h-[28px] leading-[27.98px] text-[20.8px] xl:w-[23.4375rem] 2xl:w-[374px] sm:h-[32px] PlusJakarta font-[600] sm:text-2xl sm:leading-[32px]">
                   {el.model}
                 </div>
-                <div className="w-[327px] h-[63px] text-[13.99px] leading-[20.8px] PlusJakarta sm:w-[374px] sm;h-[72px] font-[400] sm:text-[16px] sm:leading-[24px]">
+                <div className="w-[327px] h-[63px] text-[13.99px] leading-[20.8px] PlusJakarta xl:w-[19.4375rem] 2xl:w-[374px] sm:h-[72px] font-[400] sm:text-[16px] sm:leading-[24px]">
                   {el.values}
                 </div>
               </div>

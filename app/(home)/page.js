@@ -9,13 +9,13 @@ export default function Home() {
         style={{
           backgroundImage: `url('/homeImages/28.png')`,
         }}
-        className="min-h-[100vh] px-[25px] xl:px-[48px] z-20 relative bg-no-repeat gradient-background w-full bg-cover  "
+        className="min-h-[100vh]  z-20 relative bg-no-repeat gradient-background w-full bg-cover  "
       >
         {/* <div
          
           className="absolute gradient-background bg-cover  z-10 h-[50vh] w-full  "
         ></div> */}
-        <div className="relative z-50 flex flex-col gap-[3rem] md:gap-[13rem] xl:gap-[1rem]  2xl:gap-[3.2rem]    ">
+        <div className="relative z-50 flex flex-col gap-[3rem] md:gap-[13rem] xl:gap-[3.6rem]  2xl:gap-[3.2rem]    ">
           <Nav />
           <Herosection />
         </div>

@@ -46,6 +46,7 @@ function PaginationDisplay() {
         {currentItems.map((el, i) => (
           <div key={i}>
             <ProductDisplay
+            id={el.id}
               image={el.image.src}
               values={el.values}
               model={el.model}
