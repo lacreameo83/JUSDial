@@ -7,13 +7,13 @@ import Link from "next/link";
 function ProductDisplay({ image, title, model, values ,id}) {
   return (
     <div>
-      <div className="h-[615.6px] w-[327px] gap-[24.48px] sm:h-[704px] sm:w-[270px]    xl:w-[374px] flex flex-col justify-center sm:gap-[48px]">
+      <div className="h-[615.6px] w-[327px] gap-[24.48px] md:h-[704px] xl:w-[26.4375rem]    2xl:w-[374px] flex flex-col justify-center sm:gap-[28px]">
         {/* Image container */}
         <div
           style={{
             backgroundImage: `url(${image})`,
           }}
-          className=" group transition-all duration-500 h-[437.17px] w-[327px] sm:h-[500px] cardcontainer rounded-[30px] sm:w-[375px] bg-center bg-cover bg-no-repeat   relative bg-white"
+          className=" group transition-all duration-500 h-[437.17px] w-[327px] sm:h-[500px] cardcontainer rounded-[30px] xl:w-[21.4375rem] 2xl:w-[375px] bg-center bg-cover bg-no-repeat   relative bg-white"
         >
           {/* <p className="  "> */}
           <Link href={`/listingpage/${id}`}>
@@ -62,7 +62,7 @@ function ProductDisplay({ image, title, model, values ,id}) {
             <div className="w-[327px] h-[28px] leading-[27.98px] text-[20.8px] sm:w-[374px] sm:h-[32px] PlusJakarta font-[600] sm:text-[24px] sm:leading-[32px]">
               {model}
             </div>
-            <div className="w-[327px] h-[63px] text-[13.99px] leading-[20.8px] PlusJakarta sm:w-[374px] sm;h-[72px] font-[400] sm:text-[16px] sm:leading-[24px]">
+            <div className="w-[327px] h-[63px] text-[13.99px] leading-[20.8px] PlusJakarta xl:w-[270px] 2xl:w-[370px] sm:h-[72px] font-[400] sm:text-[16px] sm:leading-[24px]">
               {values}
             </div>
           </div>

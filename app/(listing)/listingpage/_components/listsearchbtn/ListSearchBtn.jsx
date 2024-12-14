@@ -8,8 +8,8 @@ import SearchIcon from '@mui/icons-material/Search';
 
 export default function ListSearchBtn() {
   return (
-    <div className="w-full  smallscreen h-[90vh]   md:h-[38vh] xl:h-[40vh]  2xl:h-[40vh] flex flex-col items-center pt-10  ">
-      <div className=" xl:w-[1185.51px] md:w-[700px] gap-[60px] h-[1500px] sm:h-[82.07px] flex flex-col  ">
+    <div className="w-full  smallscreen h-[90vh]   md:h-[38vh] xl:h-[45vh]  2xl:h-[40vh] flex flex-col items-center pt-10  ">
+      <div className=" xl:w-[68rem] 2xl:w-[1185.51px] md:w-[700px] gap-[60px] h-[1500px] sm:h-[82.07px] flex flex-col  ">
         <div className=" w-[345px] py-4 md:w-[800px] bg-[#F9F9FB]  h-[339.76px] sm:w-[80%]   xl:w-[1185.51px] sm:h-[82.07px] rounded-[12.02px]  flex items-center justify-center px-[53px] ">
           <div className="w-[301.44pxpx] h-[320.08px]   md:w-[800px] xl:w-[1700px] 2xl:w-[1600px] rounded-[9.82px] flex flex-col sm:flex-row justify-between items-center sm:justify-around sm:h-[60.07px] ">
             {/* contents in the search button */}
