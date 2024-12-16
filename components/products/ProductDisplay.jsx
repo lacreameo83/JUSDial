@@ -7,13 +7,13 @@ import Link from "next/link";
 function ProductDisplay({ image, title, model, values ,id}) {
   return (
     <div>
-      <div className="h-[615.6px] w-[327px] gap-[24.48px] md:h-[704px] xl:w-[26.4375rem]    2xl:w-[374px] flex flex-col justify-center sm:gap-[28px]">
+      <div className="h-[615.6px] w-[327px] gap-[24.48px] md:h-[704px] xl:w-[26.4375rem]  relative z-10  2xl:w-[374px] flex flex-col justify-center sm:gap-[28px]">
         {/* Image container */}
         <div
           style={{
             backgroundImage: `url(${image})`,
           }}
-          className=" group transition-all duration-500 h-[437.17px] w-[327px] sm:h-[500px] cardcontainer rounded-[30px] xl:w-[21.4375rem] 2xl:w-[375px] bg-center bg-cover bg-no-repeat   relative bg-white"
+          className=" group transition-all duration-500 h-[437.17px] w-[327px] sm:h-[500px] cardcontainer rounded-[30px] xl:w-[21.4375rem] 2xl:w-[375px] bg-center bg-cover bg-no-repeat z-10  relative bg-white"
         >
           {/* <p className="  "> */}
           <Link href={`/listingpage/${id}`}>

@@ -28,6 +28,7 @@ const data = [
       "Explore the latest construction projects, from residential to commercial developments. Find reliable builders and contractors for your next big project.",
     image2: boximage1,
     units: "Construction",
+    groupimages: [boximage1, boximage2, boximage3],
   },
   {
     id: 2,
@@ -41,6 +42,7 @@ const data = [
       "Browse a wide selection of homes, apartments, and commercial properties for sale. Make your dream purchase today..",
     image2: boximage2,
     units: "Renovation",
+    groupimages: [boximage1, boximage2, boximage3],
   },
   {
     id: 3,
@@ -54,6 +56,7 @@ const data = [
       "Ready to sell? Get your property listed with us and connect with buyers quickly. We provide hassle-free selling solutions.",
     image2: boximage3,
     units: "Buy",
+    groupimages: [boximage1, boximage2, boximage3],
   },
   {
     id: 4,
@@ -67,6 +70,7 @@ const data = [
       "Looking for a rental? Explore top listings for apartments, houses, or office spaces available for rent. Find the perfect space today.",
     image2: boximage4,
     units: "Sell",
+    groupimages: [boximage1, boximage2, boximage3],
   },
   {
     id: 5,
@@ -80,6 +84,7 @@ const data = [
       "Find the best leasing opportunities for homes, offices, or commercial spaces. Enjoy flexible leasing options for your needs..",
     image2: boximage5,
     units: "Rent",
+    groupimages: [boximage1, boximage2, boximage3],
   },
   {
     id: 6,
@@ -93,6 +98,7 @@ const data = [
       "Explore the latest construction projects, from residential to commercial developments. Find reliable builders and contractors for your next big project.",
     image2: boximage6,
     units: "Lease",
+    groupimages: [boximage1, boximage2, boximage3],
   },
   {
     id: 7,
@@ -111,7 +117,9 @@ const data = [
     model: "Modern Family Home",
     values:
       "Spacious 3-bedroom house with a pool, modern kitchen, large backyard, and located in a quiet, friendly neighborhood.",
+
     image: house1,
+    groupimages: [boximage1, boximage2, boximage3],
   },
   {
     id: 9,

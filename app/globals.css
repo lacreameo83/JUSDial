@@ -261,6 +261,26 @@
 }
 
 
+/* list pages */
+.mainfeaturedcategory-maincontainer {
+  border-top-right-radius: 20px;
+}
+
+
+.mainslideproductcategory-container {
+  border-bottom-left-radius: 50px;
+  box-shadow:-7px  5px  0px 4px #FAFAFA;
+  
+  /* border-radius: 20px; */
+}
+.mainslideproductcategory-container2 {
+  border-bottom-left-radius: 50px;
+  box-shadow:-7px  7px  0px 7px #FAFAFA;
+  
+  /* border-radius: 20px; */
+}
+
+
 @media only screen 
   and (max-width: 760px) 
    {
