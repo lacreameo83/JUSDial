@@ -1,23 +1,22 @@
 import React from 'react'
 import Sidedetais from '../slidedetailListin/Sidedetais';
 import Sidecomponent from '../sidecomponent/Sidecomponent';
-import IconButton from '../iconbutton/IconButton';
-import { FaWhatsapp } from "react-icons/fa";
-import { MdOutlineMailOutline } from "react-icons/md";
-import { IoMdCall } from "react-icons/io";
+
+import WorldMap from '../googlemap/Map';
+import CustomerSupport from '../customersupport/CustomerSupport';
 
 function IndivialDescriptionPages({modern1,modern2}) {
   return (
-    <div className="w-full flex mt-10 items-center justify-center ">
-      <div className="w-[1184px] flex h-[1138.14px]  ">
+    <div className="w-full flex mt-10 items-center sm:justify-center ">
+      <div className="w-[1184px] flex flex-col items-center sm:items-start sm:flex-row  h-[265vh] sm:h-[1138.14px]  ">
         {/* description */}
-        <div className="w-[659px] ">
-          <div className="h-[672px]  w-[659px]  flex flex-col justify-between ">
-            <p className="font-[600] flex flex-col justify-between text-[24px] leading-[32px] PlusJakarta ">
+        <div className="w-[327px]   flex items-center flex-col gap-5 sm:gap-0 order-2 sm:order-1 sm:w-[659px] ">
+          <div className=" h-[700px] mt-5 sm:mt-0  sm:h-[672px] w-[327px]  sm:w-[659px]  flex flex-col sm:justify-between ">
+            <p className="font-[600] text-[18px] leading-[28px] flex flex-col justify-between sm:text-[24px] sm:leading-[32px] PlusJakarta ">
               Description
             </p>
-            <div className="w-[659px] h-[616px]  ">
-              <p className="PlusJakarta font-[400] text-[16px] leading-[24px] text-justify text-[#000000]  ">
+            <div className=" w-[327px] sm:w-[659px]  h-[620px] sm:h-[616px]  ">
+              <p className="PlusJakarta text-[12px] leading-[18px] font-[400] sm:text-[16px] sm:leading-[24px] text-justify text-[#000000]  ">
                 {`Dacha Real Estate proudly presents this stunning modern/classic
                 family home, perfectly positioned in the heart of a highly
                 sought-after European cluster. This fully renovated property,
@@ -51,19 +50,22 @@ function IndivialDescriptionPages({modern1,modern2}) {
               </p>
             </div>
           </div>
-          <div className="h-[431.14px]  w-[659px]  ">
-            <p className="font-[600] flex flex-col justify-between text-[24px] leading-[32px] PlusJakarta ">
+          <div className="h-[431.14px] w-[327px]  sm:w-[659px]  ">
+            <p className="font-[600] text-[18px] leading-[28px] flex flex-col justify-between sm:text-[24px] sm:leading-[32px] PlusJakarta ">
               Location
             </p>
-            <div className="w-[659px] h-[375.14px] rounded-[16.7px] border-[3px]  ">
-              map
+            <div className="w-full sm:w-[659px] h-[375.14px] rounded-[16.7px] border-[3px]  ">
+              <WorldMap />
             </div>
+          </div>
+          <div className="block sm:hidden ">
+            <CustomerSupport />
           </div>
         </div>
         {/* modern */}
-        <div className="flex flex-col gap-[35px] w-[493px] h-[797px] py-[35px] px-[25px] ">
-          <div className="h-[240px] bg-[#FAFAFA] w-[443px] flex flex-col justify-between  ">
-            <p className="PlusJakarta h-[100px] truncate text-black leading-[38px] text-[30px] font-[500] ">
+        <div className="flex order-1 sm:order-2 flex-col gap-[35px] items-center w-[327px] sm:w-[493px] h-[500px] sm:h-[797px]   ">
+          <div className=" w-[293.84px]   h-[240px] bg-[#FAFAFA]  sm:w-[443px] flex flex-col justify-between  ">
+            <p className="PlusJakarta text-[19.9px] leading-[25.2px] h-[100px] sm:truncate text-black sm:leading-[38px] sm:text-[30px] font-[500] ">
               {modern1}
             </p>
             <p className="PlusJakarta font-[700] text-[36px] leading-[44px] text-[#364436] ">
@@ -71,24 +73,24 @@ function IndivialDescriptionPages({modern1,modern2}) {
             </p>
             <div className="flex  gap-[20px] ">
               <div className="bg-[#DADADA] flex items-center justify-center px-[15px] py-[5px] rounded-[8px] w-[95px] h-[34px] ">
-                <p className="text-[#364436] font-[700] text-[14px] leading-[20px] ">
+                <p className="text-[#364436] text-[9.29px] leading-[13.27px] font-[700] sm:text-[14px] sm:leading-[20px] ">
                   For Sale
                 </p>
               </div>
               <div className="bg-[#FFDAC8] flex items-center justify-center px-[15px] py-[5px] rounded-[8px] w-[107px] h-[34px] ">
-                <p className="text-[#E85913] font-[700] text-[14px] leading-[20px] ">
+                <p className="text-[#E85913] text-[9.29px] leading-[13.27px] font-[700] sm:text-[14px] sm:leading-[20px] ">
                   Apartment
                 </p>
               </div>
               <div className="bg-[#D5E5FF] px-[15px] py-[5px] rounded-[8px] w-[96px] flex items-center justify-center h-[34px] ">
-                <p className="text-[#0076E4] font-[700] text-[14px] leading-[20px] ">
+                <p className="text-[#0076E4] text-[9.29px] leading-[13.27px] font-[700] sm:text-[14px] sm:leading-[20px] ">
                   For Sale
                 </p>
               </div>
             </div>
           </div>
           {/* 2nd part */}
-          <div className="bg-[#EEEEEE] PlusJakarta px-[14.05px] flex flex-col flex-start items-center justify-around py-[25px] rounded-[9.37px] h-[226px] w-[443px] ">
+          <div className=" rounded-[6.21px] w-[293.84px] px-[10px]  py-[10px]  bg-[#EEEEEE] PlusJakarta sm:px-[14.05px] flex flex-col flex-start items-center justify-around sm:py-[25px] sm:rounded-[9.37px] h-[226px] sm:w-[443px] ">
             {/* <div className="90% h-[100%] "> */}
             <Sidecomponent text1="State" text2="Dubai" />
             <Sidecomponent text1="District" text2="Downtown Dubai" />
@@ -100,50 +102,8 @@ function IndivialDescriptionPages({modern1,modern2}) {
             {/* </div> */}
           </div>
           {/* customer support ---------------------- */}
-          <div className="w-[443px] flex items-center justify-center h-[191px] py-[25px] px-[14.05px] rounded-[9.37px] bg-[#EEEEEE] ">
-            <div className="w-[415px] h-[141px] flex gap-[18px] items-center ">
-              <div className="h-[141px] w-[141px] bg-black rounded-full "></div>
-              <div className="w-[256px] h-[141px] flex flex-col justify-between ">
-                <div className="w-[188px] h-[91px] ">
-                  <div className="font-[600] PlusJakarta text-[20px] text-black leading-[32px] ">
-                    Patricia Leonard{" "}
-                  </div>
-                  <div className="text-[#616161] font-[500] text-[16px] leading-[24px] PlusJakarta">
-                    Property Consultant{" "}
-                  </div>
-                  <div className="text-[#616161] font-[500] text-[16px] leading-[24px] PlusJakarta">
-                    <IconButton
-                      icone={<IoMdCall />}
-                      text1="+62 8123 667 7890"
-                    />
-                  </div>
-                </div>
-                <div className="w-[154px]   h-[30px] flex items-center justify-center ">
-                  <div>
-                    <IconButton
-                      icone={
-                        <div className="h-[30px] w-[30px] text-white bg-[#364436] flex rounded-full ml-12 items-center justify-center">
-                          <MdOutlineMailOutline />
-                        </div>
-                      }
-                      text1="Email"
-                    />{" "}
-                  </div>
-                  <div>
-                    {" "}
-                    <IconButton
-                      icone={
-                        <div className="h-[30px] w-[30px] text-white bg-[#364436] flex rounded-full items-center justify-center">
-                          {" "}
-                          <FaWhatsapp />{" "}
-                        </div>
-                      }
-                      text1="Whatsapp"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="hidden sm:block">
+            <CustomerSupport />
           </div>
         </div>
       </div>

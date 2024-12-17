@@ -6,15 +6,17 @@ import data from "@/app/lib/data";
 import IndivialDescriptionPages from "@/components/IndivialDescriptionPages/IndivialDescriptionPages";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import ProductDisplay from "@/components/products/ProductDisplay";
+import Navbar from "@/app/(home)/_components/nav/Navbar";
 
 function Products({ id }) {
+  // State for managing current image index
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  
   const res = data.find((el) => el.id == id);
   if (!res) {
     return <div>Product not found.</div>;
   }
-
-  // State for managing current image index
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   // Function to go to the next image
   const handleNextImage = () => {
@@ -32,7 +34,11 @@ function Products({ id }) {
   };
 
   return (
-    <div className="h-[270vh] pt-6 bg-[#FAFAFA]">
+    <div className="h-[470vh] sm:h-[370vh] bg-[#FAFAFA]">
+      <div className="hidden sm:block sm:mb-6">
+        <Navbar />
+      </div>
+
       <Sidedetais
         imageOutput={res.groupimages[currentImageIndex].src}
         Icon={
@@ -57,17 +63,43 @@ function Products({ id }) {
             ))}
           </div>
         }
-        Icon2={ <div className="h-[30px] flex items-center justify-center w-[30px] bg-[#364436] text-white rounded-full ">
-          <ArrowForwardIcon
-            onClick={handleNextImage}
-            style={{ cursor: "pointer" }}
-          />
+        Icon2={
+          <div className="h-[30px] flex items-center justify-center w-[30px] bg-[#364436] text-white rounded-full ">
+            <ArrowForwardIcon
+              onClick={handleNextImage}
+              style={{ cursor: "pointer" }}
+            />
           </div>
         }
       />
       {/* Navigation Dots */}
-
-      <IndivialDescriptionPages modern1={res.values} modern2={res.title} />
+      <div>
+        {" "}
+        <IndivialDescriptionPages modern1={res.values} modern2={res.title} />
+      </div>
+      <div>
+        <p
+          className=" text-[18px] h-[28px] m-5 sm:h-[32px] leading-[24px]
+PlusJakarta sm:text-[24px] sm:leading-[32px] font-[600]  "
+        >
+          Recent Listing
+        </p>
+        <div className=" sm:h-[120vh] flex gap-3  max-w-full overflow-x-auto whitespace-nowrap ">
+          {/* <div className="h-auto md:h-[3900px] xl:h-[2515.6px] z-50 gap-[40px] sm:gap-[12px] sm:h-[1454px] w-[327px] sm:w-[800px] xl:w-[68rem] 2xl:w-[1184px] mt-[20px] grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3"> */}
+          {data.map((el, i) => (
+            <div key={i}>
+              <ProductDisplay
+                id={el.id}
+                image={el.image.src}
+                // values={<div className="flex flex-col w-[300px] bg-slate-500 ">{el.values}</div>}
+                model={el.model}
+                title={el.title}
+              />
+            </div>
+          ))}
+          {/* </div> */}
+        </div>
+      </div>
     </div>
   );
 }

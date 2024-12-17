@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body>
         <CssBaseline />
         <div className="px-[30px]">
-          <Navbar />
+       
         </div>
         <main>{children}</main>
         <Footer />
