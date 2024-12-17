@@ -1,11 +1,19 @@
+'use client'
 import React from 'react'
 import Sidedetais from '../slidedetailListin/Sidedetais';
 import Sidecomponent from '../sidecomponent/Sidecomponent';
-
-import WorldMap from '../googlemap/Map';
+  import dynamic from "next/dynamic";
+// import WorldMap from '';
 import CustomerSupport from '../customersupport/CustomerSupport';
 
 function IndivialDescriptionPages({modern1,modern2}) {
+
+
+
+  // Dynamically import the WorldMap component without SSR
+  // const DynamicWorldMap = dynamic(() => import("../googlemap/Map"), {
+  //   ssr: false,
+  // });
   return (
     <div className="w-full flex mt-10 items-center sm:justify-center ">
       <div className="w-[1184px] flex flex-col items-center sm:items-start sm:flex-row  h-[265vh] sm:h-[1138.14px]  ">
@@ -55,7 +63,7 @@ function IndivialDescriptionPages({modern1,modern2}) {
               Location
             </p>
             <div className="w-full sm:w-[659px] h-[375.14px] rounded-[16.7px] border-[3px]  ">
-              <WorldMap />
+              {/* <DynamicWorldMap /> */}map
             </div>
           </div>
           <div className="block sm:hidden ">
