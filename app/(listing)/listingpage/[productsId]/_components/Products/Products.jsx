@@ -1,13 +1,17 @@
 "use client";
 
-import Sidedetais from "@/components/slidedetailListin/Sidedetais";
+
 import React, { useState } from "react";
-import data from "@/app/lib/data";
-import IndivialDescriptionPages from "@/components/IndivialDescriptionPages/IndivialDescriptionPages";
+import data from '../../../../../lib/data.js'
+
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import ProductDisplay from "@/components/products/ProductDisplay";
-import Navbar from "@/app/(home)/_components/nav/Navbar";
+
+
+import IndivialDescriptionPages from "../../../../../../components/IndivialDescriptionPages/IndivialDescriptionPages";
+import ProductDisplay from "../../../../../../components/products/ProductDisplay";
+import Sidedetais from "../../../../../../components/slidedetailListin/Sidedetais.jsx";
+import Navbar from "../../../../../(home)/_components/nav/Navbar.jsx";
 
 function Products({ id }) {
   // State for managing current image index

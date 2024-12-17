@@ -2,7 +2,7 @@ import React from 'react'
 import ListSearchBtn from './_components/listsearchbtn/ListSearchBtn'
 
 import PagenationDisplay from './_components/pagenationDisplay/PagenationDisplay'
-import Navbar from '@/app/(home)/_components/nav/Navbar';
+import Navbar from '../../../app/(home)/_components/nav/Navbar.jsx';
 
 function page() {
   return (

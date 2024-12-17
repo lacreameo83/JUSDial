@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '@/app/lib/data.js';
+import data from '../../../lib/data.js';
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 function ExploreService() {
   return (

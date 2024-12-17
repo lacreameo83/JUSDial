@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
-import data from "@/app/lib/data";
-import ProductDisplay from "@/components/products/ProductDisplay";
+import data from "../../../cys/app/lib/data.js";
+
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 

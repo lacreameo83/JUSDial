@@ -1,11 +1,14 @@
 'use client'
-import DropDownMenu from '@/components/dropdownmenu/DropDownMenu';
-import SearchButton from '@/components/searchbutton/SearchButton';
-import InputText from '@/components/textinput/InputText';
+
+
+
 import RestartAltIcon from "@mui/icons-material/RestartAlt";
 import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
-import Form from '@/components/form/form';
+
+import DropdownMenu from '../../../../../components/dropdownmenu/DropDownMenu';
+import SearchButton from '../../../../../components/searchbutton/SearchButton';
+import InputText from "../../../../../components/textinput/InputText";
 
 export default function ListSearchBtn() {
   return (
@@ -21,7 +24,7 @@ export default function ListSearchBtn() {
             {/* diverer */}
             <div className="hidden sm:block border-[1px] h-[30px] border-[#808080] "></div>
             <div>
-              <DropDownMenu
+              <DropdownMenu
                 title="Type"
                 options={[
                   "Contruction",
@@ -36,12 +39,12 @@ export default function ListSearchBtn() {
             {/* divider */}
             <div className=" hidden sm:block border-[1px]  h-[30px] border-[#808080] "></div>
             <div>
-              <DropDownMenu title="Category" options={["Apartment", "Villa"]} />
+              <DropdownMenu title="Category" options={["Apartment", "Villa"]} />
             </div>
             {/* divider */}
             <div className="hidden sm:block border-[1px]  h-[30px] border-[#808080] "></div>
             <div>
-              <DropDownMenu
+              <DropdownMenu
                 title="Location"
                 options={[
                   "Dubai",
@@ -66,14 +69,13 @@ export default function ListSearchBtn() {
               <p className="text-[40px] font-[700]">Construction</p>
             </div>
             <div>
-              <DropDownMenu
+              <DropdownMenu
                 title="Most Recent"
                 options={[
                   "Sort by title (Z-A)",
                   "sort by title (A - Z)",
                   "Sort by newest",
                   "sort by oldest",
-                
                 ]}
               />
             </div>

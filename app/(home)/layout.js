@@ -1,6 +1,6 @@
 import localFont from "next/font/local";
 import "../globals.css";
-import Footer from "@/components/footer/Footer.jsx";
+import Footer from "../../components/footer/Footer.jsx";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 

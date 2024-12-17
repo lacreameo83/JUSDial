@@ -5,7 +5,7 @@ import React from "react";
 
 
 import IndividualPagenataing from "../individualpagnation/IndividualPaganation";
-import Navbar from "@/app/(home)/_components/nav/Navbar";
+import Navbar from "../../app/(home)/_components/nav/Navbar.jsx";
 
 function Sidedetais({ imageOutput,Icon,Icon2,text }) {
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { CiHeart } from "react-icons/ci";
 import { BsArrowDownLeft } from "react-icons/bs";
-import data from "@/app/lib/data";
+import data from "../../../lib/data.js";
 
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import CallReceivedIcon from "@mui/icons-material/CallReceived";
