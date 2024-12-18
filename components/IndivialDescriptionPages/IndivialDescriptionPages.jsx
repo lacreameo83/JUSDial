@@ -16,14 +16,14 @@ function IndivialDescriptionPages({modern1,modern2}) {
   // });
   return (
     <div className="w-full flex mt-10 items-center sm:justify-center ">
-      <div className="w-[1184px] flex flex-col items-center sm:items-start sm:flex-row  h-[265vh] sm:h-[1138.14px]  ">
+      <div className="w-full md:w-[800px]  xl:w-[1000px] 2xl:w-[1184px]  flex flex-col items-center sm:items-start sm:flex-row  h-[265vh] md:h-[1599px] xl:h-[1198.14px] 2xl:h-[1138.14px]  ">
         {/* description */}
-        <div className="w-[327px]   flex items-center flex-col gap-5 sm:gap-0 order-2 sm:order-1 sm:w-[659px] ">
-          <div className=" h-[700px] mt-5 sm:mt-0  sm:h-[672px] w-[327px]  sm:w-[659px]  flex flex-col sm:justify-between ">
+        <div className="w-[327px]    flex items-center flex-col gap-5 md:gap-[450px] xl:gap-[95px] 2xl:gap-0 order-2 sm:order-1 md:w-[350px] xl:w-[500px] 2xl:w-[659px]  ">
+          <div className=" h-[700px]  mt-5 sm:mt-0  sm:h-[672px] w-[327px] md:w-[350px] xl:w-[500px]  2xl:w-[659px]  flex flex-col sm:justify-between ">
             <p className="font-[600] text-[18px] leading-[28px] flex flex-col justify-between sm:text-[24px] sm:leading-[32px] PlusJakarta ">
               Description
             </p>
-            <div className=" w-[327px] sm:w-[659px]  h-[620px] sm:h-[616px]  ">
+            <div className=" w-[327px] md:w-[350px] xl:w-[500px] 2xl:w-[659px]  h-[620px] sm:h-[616px]  ">
               <p className="PlusJakarta text-[12px] leading-[18px] font-[400] sm:text-[16px] sm:leading-[24px] text-justify text-[#000000]  ">
                 {`Dacha Real Estate proudly presents this stunning modern/classic
                 family home, perfectly positioned in the heart of a highly
@@ -58,12 +58,21 @@ function IndivialDescriptionPages({modern1,modern2}) {
               </p>
             </div>
           </div>
-          <div className="h-[431.14px] w-[327px]  sm:w-[659px]  ">
+          <div className="h-[431.14px] w-[327px] md:w-[350px] xl:w-[500px]  2xl:w-[659px]  ">
             <p className="font-[600] text-[18px] leading-[28px] flex flex-col justify-between sm:text-[24px] sm:leading-[32px] PlusJakarta ">
               Location
             </p>
-            <div className="w-full sm:w-[659px] h-[375.14px] rounded-[16.7px] border-[3px]  ">
-              {/* <DynamicWorldMap /> */}map
+            <div className="w-full md:w-[350px] xl:w-[500px] 2xl:w-[659px] h-[375.14px] rounded-[16.7px] border-[3px]  ">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462563.03271722235!2d54.897828656500074!3d25.075658395396644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sng!4v1734487171783!5m2!1sen!2sng"
+                // width="600"
+                // height="450"
+                // style="border:0;"
+                // allowfullscreen=""
+                style={{ width: "659px", height: "375.14px" }}
+                loading="lazy"
+                // referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
           <div className="block sm:hidden ">
