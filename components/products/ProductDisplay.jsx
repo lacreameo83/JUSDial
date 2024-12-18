@@ -62,7 +62,7 @@ function ProductDisplay({ image, title, model, values ,id}) {
             <div className="w-[327px] h-[28px] leading-[27.98px] text-[20.8px] sm:w-[374px] sm:h-[32px] PlusJakarta font-[600] sm:text-[24px] sm:leading-[32px]">
               {model}
             </div>
-            <div className="w-[327px]  h-[63px] text-[13.99px] leading-[20.8px] PlusJakarta xl:w-[270px] 2xl:w-[370px]  sm:h-[92px] font-[400] sm:text-[16px] sm:leading-[24px]">
+            <div className="w-[327px]  h-[63px] text-[13.99px]  leading-[20.8px] PlusJakarta xl:w-[270px] 2xl:w-[370px]  sm:h-[92px] font-[400] sm:text-[16px] sm:leading-[24px]">
               {values}
             </div>
           </div>

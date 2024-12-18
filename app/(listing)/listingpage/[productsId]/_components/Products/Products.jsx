@@ -95,9 +95,9 @@ PlusJakarta sm:text-[24px] sm:leading-[32px] font-[600]  "
               <ProductDisplay
                 id={el.id}
                 image={el.image.src}
-                // values={<div className="flex flex-col w-[300px] bg-slate-500 ">{el.values}</div>}
                 model={el.model}
                 title={el.title}
+                // values={el.values}
               />
             </div>
           ))}

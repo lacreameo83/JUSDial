@@ -8,9 +8,11 @@ function CustomerSupport() {
   return (
     <div>
       <div className="w-[327.84px]  sm:w-[443px] flex items-center justify-center h-[191px] py-[25px] px-[14.05px] rounded-[9.37px] bg-[#EEEEEE] ">
-        <div className=" w-[293.84px]  sm:w-[415px] h-[141px] flex gap-[18px] items-center ">
-          <div className="w-[93px] h-[93px]   sm:h-[141px] sm:w-[141px] bg-black rounded-[100%] "></div>
-          <div className="w-[256px] h-[141px] flex flex-col justify-between ">
+        <div className=" w-[293.84px]  sm:w-[415px] h-[141px] flex justify-between  sm:gap-[18px] items-center ">
+          <div className="w-[90px] h-[90px] rounded-[50%]   sm:h-[141px] sm:w-[141px] bg-black  ">
+            
+          </div>
+          <div className=" sm:w-[256px] h-[141px] flex flex-col justify-between ">
             <div className="w-[188px] h-[91px] ">
               <div className="font-[600] text-[15.92px] leading-[21.23px] PlusJakarta sm:text-[20px] text-black sm:leading-[32px] ">
                 Patricia Leonard{" "}

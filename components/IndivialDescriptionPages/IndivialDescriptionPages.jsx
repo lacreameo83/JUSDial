@@ -6,6 +6,8 @@ import Sidecomponent from '../sidecomponent/Sidecomponent';
 // import WorldMap from '';
 import CustomerSupport from '../customersupport/CustomerSupport';
 
+import GoogleMap from '../googlemap/Map';
+
 function IndivialDescriptionPages({modern1,modern2}) {
 
 
@@ -69,7 +71,8 @@ function IndivialDescriptionPages({modern1,modern2}) {
                 // height="450"
                 // style="border:0;"
                 // allowfullscreen=""
-                style={{ width: "659px", height: "375.14px" }}
+                // style={{ width: "659px", height: "375.14px" }}
+                className="w-full md:w-[350px] xl:w-[500px]  2xl:w-[659px] h-[375.14px] "
                 loading="lazy"
                 // referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
