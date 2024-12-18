@@ -9,15 +9,15 @@ function page() {
       <div>
         <div className="flex flex-col justify-between items-center  ">
           <div className="mb-6">
-            <Image width={200} height={200} src={logo.src} />
+            <Image width={200} height={200} src={logo.src} alt='logo' />
           </div>
 
           <p className="PlusJakarta text-center mb-3 w-[253px] leading-[32px] text-[24px] font-[700] ">
             Start Your Property Journey Today
           </p>
           <p className="PlusJakarta text-[14px] leading-[20px] font-[400] w-[325px] text-center ">
-            Begin your journey to find your dream home. Sign up or log in for an
-            unparalleled property search experience
+          {`  Begin your journey to find your dream home. Sign up or log in for an
+            unparalleled property search experience`}
           </p>
         </div>
       </div>

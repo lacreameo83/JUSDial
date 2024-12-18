@@ -14,7 +14,7 @@ function page() {
       <div className="flex flex-col gap-2 ">
         <div className="w-[327px]   h-[160px] flex flex-col gap-3 ">
           <div>
-            <Image width={150} height={150} src={image.src} />
+            <Image width={150} height={150} src={image.src} alt='logo' />
           </div>
           <p
             className="
@@ -27,8 +27,8 @@ PlusJakarta w-[409px] h-[32px] font-[700] leading-[32px] text-[24px] "
             className="
 PlusJakarta w-[326px] h-[36px]  font-[400] leading-[18px] text-[12px] "
           >
-            Create your account to access a wide range of tools, exclusive
-            listings, and opportunities tailored for real estate agents.
+          {`  Create your account to access a wide range of tools, exclusive
+            listings, and opportunities tailored for real estate agents.`}
           </p>
         </div>
         {/* bottom */}

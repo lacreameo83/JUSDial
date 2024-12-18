@@ -18,14 +18,14 @@ PlusJakarta w-[209px] h-[32px] font-[700] leading-[32px] text-[24px] "
             Welcome back to
           </p>
           <div>
-            <Image width={150} height={150} src={image.src} />
+            <Image width={150} height={150} src={image.src} alt='logo' />
           </div>
           <p
             className="
 PlusJakarta w-[326px] h-[36px]  font-[400] leading-[18px] text-[12px] "
           >
-            Access your agent dashboard, manage listings, track inquiries, and
-            grow your business.
+         {  ` Access your agent dashboard, manage listings, track inquiries, and
+            grow your business.`}
           </p>
         </div>
         {/* bottom */}
@@ -69,7 +69,7 @@ PlusJakarta w-[326px] h-[36px]  font-[400] leading-[18px] text-[12px] "
             </div>
             <div className=" flex justify-end items-center gap-2">
               <p className="text-[14px] text-[#0D0D0D] PlusJakarta leading-[20px] text-center  font-[400] ">
-                Dont't have an account?
+              {`  Dont't have an account?`}
               </p>
               <Link href="/register">
                 <p className="text-[14px] text-[#364436] PlusJakarta leading-[20px] text-center font-[400] ">
