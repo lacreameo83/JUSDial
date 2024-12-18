@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import data from "../../app/lib/data";";
-
+import data from "../../app/lib/data";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 
