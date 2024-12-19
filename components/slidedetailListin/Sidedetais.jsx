@@ -11,7 +11,7 @@ function Sidedetais({ imageOutput,Icon,Icon2,text }) {
       <div
         // style={{ backgroundImage: `url(${imageOutput})` }}
         style={{ backgroundImage: `url(${imageOutput})` }}
-        className="w-full md:w-[800px]  xl:w-[1000px] 2xl:w-[1184px] bg-no-repeat bg-center bg-cover   relative h-[674px] bg-black sm:rounded-[30px] "
+        className="w-full md:w-[800px] bg-[length:1250px] sm:bg-[length:1750px] sm:hover:bg-[length:2100px]  hover:bg-[length:1350px] transition-all  ease-in duration-500  xl:w-[1000px] 2xl:w-[1184px] bg-no-repeat bg-center    relative h-[674px] bg-black sm:rounded-[30px] "
       >
         <div className="block sm:hidden ">
           <Navbar />

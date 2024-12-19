@@ -38,7 +38,7 @@ function Products({ id }) {
   };
 
   return (
-    <div className="h-[470vh] sm:h-[370vh] bg-[#FAFAFA]">
+    <div className="h-[450vh] sm:h-[370vh] bg-[#FAFAFA]">
       <div className="hidden sm:block sm:mb-6">
         <Navbar />
       </div>
@@ -88,7 +88,7 @@ PlusJakarta sm:text-[24px] sm:leading-[32px] font-[600]  "
         >
           Recent Listing
         </p>
-        <div className=" sm:h-[120vh] flex gap-3  max-w-full overflow-x-auto whitespace-nowrap ">
+        <div className=" sm:h-[120vh] flex justify-center gap-3  max-w-full overflow-x-auto whitespace-nowrap ">
           {/* <div className="h-auto md:h-[3900px] xl:h-[2515.6px] z-50 gap-[40px] sm:gap-[12px] sm:h-[1454px] w-[327px] sm:w-[800px] xl:w-[68rem] 2xl:w-[1184px] mt-[20px] grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3"> */}
           {data.map((el, i) => (
             <div key={i}>
@@ -97,7 +97,7 @@ PlusJakarta sm:text-[24px] sm:leading-[32px] font-[600]  "
                 image={el.image.src}
                 model={el.model}
                 title={el.title}
-                // values={el.values}
+                values={<div className="truncate">{el.values}</div>}
               />
             </div>
           ))}

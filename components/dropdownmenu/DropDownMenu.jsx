@@ -8,13 +8,13 @@ function DropdownMenu({ options = [], title = "Select Type" }) {
   const [selectedValue, setSelectedValue] = useState(title);
 
   return (
-    <div className="relative z-30">
+    <div className="relative ">
       {/* Button to toggle dropdown */}
       <div
         onClick={() => setIsDropdownOpen((prev) => !prev)}
-        className="inputbutton w-[298.44px] buttonbackgroundcolor sm:bg-transparent sm:w-[148.42px] xl:w-[188.42px] rounded-[20px]  relative sm:flex sm:items-center sm:justify-center"
+        className="inputbutton w-full ml-[-25px] buttonbackgroundcolor sm:bg-transparent sm:w-[148.42px] xl:w-[188.42px] rounded-[20px]   relative sm:flex sm:items-center sm:justify-center"
       >
-        <div className="w-full  h-[59.08px] bg-[#FEFEFE] sm:bg-transparent px-4   rounded-[9.8px]   flex items-center justify-between cursor-pointer">
+        <div className="w-[301.44px]  h-[50.08px] bg-[#EEEEEE] sm:bg-transparent px-2   rounded-[9.8px] relative z-20   flex items-center justify-between cursor-pointer">
           <button className="text-[14px] leading-[20px] font-[400] placehoderscolors sm:text-[16px] sm:leading-[24px] textcolor">
             {selectedValue}
           </button>

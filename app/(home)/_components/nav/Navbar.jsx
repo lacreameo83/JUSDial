@@ -8,6 +8,7 @@ import logo1 from "../../../../public/logo/Logo-WordMark-Green.svg";
 import logo2 from "../../../../public/logo/Logo-Icon-Green.svg";
 import logo3 from "../../../../public/logo/Logo-Icon-White.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 function Navbar() {
  const [menuclicked,setMenuClicked]=useState(false)
@@ -63,12 +64,13 @@ setMenuClicked(!menuclicked);
         </div>
 
         {/* Add Listing Button (Visible on large screens) */}
-        <div className="hidden sm:block">
-          <div className="backgroundcolor text-[16.58px] px-[24px] py-[12px] font-[700] leading-[22.62px] w-[138px] h-[48px] rounded-[8px] flex items-center justify-around text-center text-[#FFFFFF] cursor-pointer transition-colors duration-300 ease-in-out ">
-            <p>Add listing</p>
+        <Link href="/register">
+          <div className="hidden sm:block">
+            <div className="backgroundcolor text-[16.58px] px-[24px] py-[12px] font-[700] leading-[22.62px] w-[138px] h-[48px] rounded-[8px] flex items-center justify-around text-center text-[#FFFFFF] cursor-pointer transition-colors duration-300 ease-in-out ">
+              <p>Add listing</p>
+            </div>
           </div>
-        </div>
-
+        </Link>
         {/* Mobile Menu Icon (Visible on small screens) */}
         <div onClick={handleIsMenuclicked} className="block  sm:hidden">
           <MenuIcon className="cursor-pointer text-[#0D0D0D]  transition-all h-[16px] w-[28px] duration-300" />

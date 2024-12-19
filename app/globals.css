@@ -107,16 +107,18 @@
 
 .cardcontainer:hover {
   background-size: 350%;
-  /* animation:backgroundsize 1s ease-in  ; */
+  animation:backgroundsize 1s ease-in  ;
 }
 .cardcontainerbox {
-    transition: background-size 2s ease-in;
-    background-size: 1750px
+    transition: all 2s ease-in;
+    
+}
+.cardcontainerbox:hover {
+    transition: all 2s ease-in;
+    
 }
 
-.cardcontainerbox:hover {
-  background-size: 1950px; /* Zoom the background on hover */
-}
+
 
 
 
@@ -248,7 +250,7 @@
 
   
 .mainfeaturedcategory-container {
-  border-top-left-radius: 10%;
+  border-top-left-radius: 30px;
 }
 .mainboxbottom-featuredcategory-container {
    border-bottom-right-radius: 50px;

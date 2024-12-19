@@ -40,9 +40,9 @@ function PaginationDisplay() {
   };
 
   return (
-    <div className="w-full flex flex-col items-center">
+    <div className="w-full flex flex-col items-center ">
       {/* Display paginated items */}
-      <div className="h-auto md:h-[3900px] xl:h-[2515.6px] z-50 gap-[40px] sm:gap-[12px] sm:h-[1454px] w-[327px] sm:w-[800px] xl:w-[68rem] 2xl:w-[1184px] mt-[20px] grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
+      <div className="h-[5993.59px]  gap-[40px] bg-white   xl:h-[2454px] z-10 xl:gap-[60px] 2xl:h-[2204px] md:mt-[20px] xl:mt-[60px] md:h-[3590px] sm:gap-[18px]   w-[327px]   sm:w-[1184px] md:w-full xl:w-[1199px] 2xl:w-[1184px] mt-[20px] grid grid-cols-1 2xl:gap-[31px] md:grid-cols-2 place-items-center xl:grid-cols-3">
         {currentItems.map((el, i) => (
           <div key={i}>
             <ProductDisplay

@@ -2,10 +2,10 @@ import React from 'react'
 
 function InputText({placeholder,icon}) {
   return (
-    <div className="flex items-center justify-between w-[270px] md:w-[160px] py-7 rounded-[12px] bg-[#FEFEFE] sm:bg-transparent px-2  xl:w-[170.8px] h-[24px] ">
+    <div className="flex rounded-[9.82px] items-center h-[50.08px] justify-between w-[301.44px] md:w-[120px] py-7  bg-[#EEEEEE] sm:bg-transparent px-2  xl:w-[170.8px]  ">
       <div>
         <input
-          className="w-[150px] md:w-[100px] bg-transparent outline-none "
+          className="w-[150px] md:w-[80px] bg-transparent outline-none "
           type="text"
           placeholder={placeholder}
         />
